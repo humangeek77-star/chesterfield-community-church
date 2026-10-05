@@ -1,0 +1,1317 @@
+{
+  "target_url": "https://www.chesterfieldcommunitychurch.org/",
+  "total_pages": 13,
+  "pages": [
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/",
+      "slug": "home",
+      "title": "Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "A Place to Call Home"
+        },
+        {
+          "tag": "h3",
+          "text": "CHECK HERE FOR ALL Cancellations of Sunday Worship and information about other church events. . ."
+        },
+        {
+          "tag": "h2",
+          "text": "Discover Chesterfield Community Church"
+        },
+        {
+          "tag": "h3",
+          "text": "Sunday"
+        },
+        {
+          "tag": "h3",
+          "text": "9:30am - Small Group Bible Study"
+        },
+        {
+          "tag": "h3",
+          "text": "10:30am - Worship"
+        },
+        {
+          "tag": "h3",
+          "text": "In-person and on-line at You Tube (click here for link)"
+        },
+        {
+          "tag": "h3",
+          "text": "Through a variety of opportunities from which to choose, you can connect and grow, in your spiritual life,social interaction, and friendships."
+        },
+        {
+          "tag": "h2",
+          "text": "Connect"
+        },
+        {
+          "tag": "h2",
+          "text": "Children"
+        },
+        {
+          "tag": "h2",
+          "text": "Worship On Line"
+        },
+        {
+          "tag": "h2",
+          "text": "Contact Us"
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [\"fotorama\"];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                                    \n                        \n                                        \n                                            \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n                \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n            CHECK HERE FOR ALL Cancellations of Sunday Worship and information about other church events. . .\r\n&nbsp;",
+        "Imagine a space where God&rsquo;s family makes room for you to connect in friendship and explore yourdeepest faith questions.&nbsp;",
+        "We invite you to experience such fresh faith&nbsp; with us here at Chesterfield Community Church.",
+        "When you join us for worship on a Sunday morning, you will find our service includes an uplifting musical worship and a Biblical message for daily living. A nursery and children's classes are&nbsp;provided during Sunday worship.",
+        "Located on the corner of Main Street and Linden Lane&nbsp;in Chesterfield.",
+        "Click Here for Google Maps Directions to the Church",
+        "Through a variety of opportunities from which to choose, you can connect and grow, in your spiritual life,social interaction, and friendships.    \n\n    \n    \n\n    \n    \n    \n                            \n                                                                \n            \n\n    \n            Connect    \n\n    \n            Through a variety of opportunities from which to choose, you can connect and grow, in your spiritual life, social interaction, and friendships.",
+        "Children    \n\n    \n            A staffed Nursery and Children's Class are offered during Sunday Morning Worship",
+        "Worship On Line    \n\n    \n            We welcome you to worship on the live stream services every Sunday at 10:30am, and other special events, on Youtube.",
+        "Contact Us    \n\n    \n            If you have questions, please contact us. We will be glad to hear from you",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/cross-straighhted-cropped-jjpg-high-2hjh9n.jpg?enable-io=true&amp;enable=upscale&amp;crop=1%3A1%2Coffset-y0&amp;width=800",
+          "filename": "cross-straighhted-cropped-jjpg-high-2hjh9n.jpg",
+          "local_path": "/assets/images/cross-straighhted-cropped-jjpg-high-2hjh9n.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\cross-straighhted-cropped-jjpg-high-2hjh9n.jpg",
+          "alt": "",
+          "size_bytes": 95912,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/ccc-connections-stached-on-layers-png-standard.png",
+          "filename": "ccc-connections-stached-on-layers-png-standard.png",
+          "local_path": "/assets/images/ccc-connections-stached-on-layers-png-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\ccc-connections-stached-on-layers-png-standard.png",
+          "alt": "",
+          "size_bytes": 82762,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/a-place-to-belong-small-high.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.4286%3A1&amp;width=800",
+          "filename": "a-place-to-belong-small-high.jpg",
+          "local_path": "/assets/images/a-place-to-belong-small-high.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\a-place-to-belong-small-high.jpg",
+          "alt": "",
+          "size_bytes": 7412,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/discovery-kids-small-high.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.4286%3A1&amp;width=800",
+          "filename": "discovery-kids-small-high.jpg",
+          "local_path": "/assets/images/discovery-kids-small-high.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\discovery-kids-small-high.jpg",
+          "alt": "",
+          "size_bytes": 13644,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/cross-high.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.4261%3A1&amp;width=800",
+          "filename": "cross-high.jpg",
+          "local_path": "/assets/images/cross-high.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\cross-high.jpg",
+          "alt": "",
+          "size_bytes": 13276,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/contact-us-high.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.4286%3A1&amp;width=800",
+          "filename": "contact-us-high.jpg",
+          "local_path": "/assets/images/contact-us-high.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\contact-us-high.jpg",
+          "alt": "",
+          "size_bytes": 9966,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/about-us",
+      "slug": "about-us",
+      "title": "About Us | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "About Us"
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                About Us | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n                            \n                                                                \n            \n\n    \n            About Us\r\nChesterfield Community Church is a family of believers whose mission is becoming like Jesusin our homes, our church, and our community.",
+        "We invite everyone to participate in worship authentically and holistically; heart, mind, soul and body.Sunday worship includes a variety of music that&nbsp;engages the congregation in meaningful hymns and songs of praise and worship, scripture, prayer and an inspiring message.It has and additional option for kids &ndash; a Children&rsquo;s Moment during the service, and a special program called Discovery Kids.",
+        "What to Expect",
+        "You will be greeted by one of our friendly Welcome Team members, they can direct you to our Connections Center with any questions you may have.&nbsp; We also like to enjoy a cup of coffee while we fellowship before the service.",
+        "What Should you Wear",
+        "We want everyone to be comfortable and relaxed, especially if visiting for the first time, so wear what you're comfortable in.",
+        "What We Believe",
+        "We believe it is our responsibility to reach people at their point of need, by making disciples who are reliant upon the Holy Spirit.",
+        "Our goal is to make everyone feel welcome when they arrive.&nbsp; If you are joining us for the first time please stop at the Connections Center, we are happy to answer any questions you may have.",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/picture-of-church-edited-without-logo-and-name-copy-high-snvgwd.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.3333%3A1%2Coffset-x87&amp;width=800",
+          "filename": "picture-of-church-edited-without-logo-and-name-copy-hig.jpg",
+          "local_path": "/assets/images/picture-of-church-edited-without-logo-and-name-copy-hig.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\picture-of-church-edited-without-logo-and-name-copy-hig.jpg",
+          "alt": "",
+          "size_bytes": 70664,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/mission-vision",
+      "slug": "mission-vision",
+      "title": "Mission/Vision | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Mission Statement"
+        },
+        {
+          "tag": "h3",
+          "text": "Our Vision"
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Mission/Vision | Chesterfield Community Church of God\n                                                                            \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n            Mission Statement\n&nbsp;",
+        "Know Christ: To understand and&nbsp; believe in God's saving grace and forgiveness through Christ.&nbsp; To understand the nature and character of God, Jesus Christ, and the Holy Spirit",
+        "Grow in Christ:&nbsp; To&nbsp;grow spiritually into the image of Christ individually and as a community through daily meditation, prayer, patience, and the exercise of spiritual gifts as given by the Holy Spirit.",
+        "Care as Christ: To provide love, help, and understanding to all people.&nbsp; To act upon faith and in the nature of Christ, bearing each others emotional and physical burdens in humble service to Him.",
+        "Share Christ Unconditionally:&nbsp; To share the Good News of the saving grace of Jesus Christ and by our living example provide proof of His life-changing power.",
+        "\"I am the door; if anyone enters through Me, he shall be saved. \" John 10:9",
+        "Chesterfield Community Church of God is a church with many doors; Doors that open to those who seek entry--searchers, seeking a basis for their beliefs. Believers who enter grow in faith.",
+        "Doors of sanctuary, challenge, and service, these doors are open to all--offering a sincere welcome to join our family, an invitation to faith, space within to grow and celebrate, to release our pain and sorrow, forgive and be forgiven.",
+        "Enter these doors to worship, open to God's Word; bring gifts of gratitude and promise, accept his gift of grace freely given, rise healed and hopeful commissioned to carry God's message beyond these doors.",
+        "Let us serve with open hearts, willing to risk in His name, putting His love in action wherever He leads; ministering to each other; encouraging our sister churches in the Chesterfield community and surrounding area, caring for our community, committing time, talent and treasure.",
+        "May each person who enters these doors come to know Jesus as Lord and Savior. Empowered by His Holy Spirit we will share and declare the good news beyond these doors.",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/our-team-1",
+      "slug": "our-team-1",
+      "title": "Our Team | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Ministry Staff"
+        },
+        {
+          "tag": "h3",
+          "text": "Support Staff"
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Our Team | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n            Ministry Staff\n&nbsp;",
+        "Rev. Dr. Jerry GrubbsInterim Pastor",
+        "Rev. Becky FauntleroyAssociate Pastor-Pastoral Care",
+        "Rev. Dr. Lisa MooreWorship Pastor",
+        "Susan BlowerChildren's Director",
+        "Amy GreenwaltNursery Attendant",
+        "Shelly Siek, Office Administrator&nbsp;",
+        "Marvin Ginn, Facilities Manager",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/0-high.png?enable-io=true&amp;enable=upscale&amp;crop=0.7372%3A1&amp;width=800",
+          "filename": "0-high.png",
+          "local_path": "/assets/images/0-high.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\0-high.png",
+          "alt": "",
+          "size_bytes": 530656,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/becky-1-cropped-high.jpg?enable-io=true&amp;enable=upscale&amp;crop=0.7606%3A1&amp;width=800",
+          "filename": "becky-1-cropped-high.jpg",
+          "local_path": "/assets/images/becky-1-cropped-high.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\becky-1-cropped-high.jpg",
+          "alt": "",
+          "size_bytes": 5074,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/image-high-sqbbn9.png?enable-io=true&amp;enable=upscale&amp;crop=0.7634%3A1%2Coffset-y16&amp;width=800",
+          "filename": "image-high-sqbbn9.png",
+          "local_path": "/assets/images/image-high-sqbbn9.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\image-high-sqbbn9.png",
+          "alt": "",
+          "size_bytes": 1965732,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/image-high-xzjlrf.png?enable-io=true&amp;enable=upscale&amp;crop=0.7976%3A1%2Coffset-y64&amp;width=800",
+          "filename": "image-high-xzjlrf.png",
+          "local_path": "/assets/images/image-high-xzjlrf.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\image-high-xzjlrf.png",
+          "alt": "",
+          "size_bytes": 58092,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/photoroom-20241011_174347-2-high-1v2i9a.png?enable-io=true&amp;enable=upscale&amp;crop=0.75%3A1%2Coffset-y87&amp;width=800",
+          "filename": "photoroom-20241011_174347-2-high-1v2i9a.png",
+          "local_path": "/assets/images/photoroom-20241011_174347-2-high-1v2i9a.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\photoroom-20241011_174347-2-high-1v2i9a.png",
+          "alt": "",
+          "size_bytes": 258608,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/image-high-ipdk3h.png?enable-io=true&amp;enable=upscale&amp;crop=0.75%3A1&amp;width=800",
+          "filename": "image-high-ipdk3h.png",
+          "local_path": "/assets/images/image-high-ipdk3h.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\image-high-ipdk3h.png",
+          "alt": "",
+          "size_bytes": 1076036,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/marvin-ginn-high.jpg?enable-io=true&amp;enable=upscale&amp;crop=0.6476%3A1&amp;width=800",
+          "filename": "marvin-ginn-high.jpg",
+          "local_path": "/assets/images/marvin-ginn-high.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\marvin-ginn-high.jpg",
+          "alt": "",
+          "size_bytes": 6174,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/ministries",
+      "slug": "ministries",
+      "title": "Ministries | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Ministries"
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [\"fotorama\"];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Ministries | Chesterfield Community Church of God\n                                                                            \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n    \n        \n    \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n                                \n            \n\n    \n            Ministries\r\n\r\nSmall groups for Spiritual growth and relationship building.\r\nStrengthening families along with, children, and adult ministries.\r\nPastoral Care Teams to minister to the elderly and shut-ins by caring for them, listening, and praying for and with them.\r\nBible Teaching and Preaching.\r\nService Committees (Hospitality, Building and Grounds, Kitchen, etc.)\r\n\r\n&nbsp;",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/outreach-and-missions",
+      "slug": "outreach-and-missions",
+      "title": "Outreach and Missions | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "We see rural Honduran communities as a place to truly belong."
+        },
+        {
+          "tag": "h3",
+          "text": "Click picture above to watch Heart to Honduras Video."
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [\"website-rendering\\/slideshow\"];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Outreach and Missions | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n                    \n            \n                \n                                                            \n                \n                    \n                \n            \n                            \n                            \n                \n                \n            \n                \n            \n                Outreach and Mission\n                                            \n        \n    \n\n\n                            \n            \n        \n        \n        \n    \n    \n                @media screen and (min-width: 1200px) {\n            .jw-slideshow-slide-content-height-enforcer-wrapper {\n                max-height: 276px !important;\n            }\n        }\n            \n\n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n                            \n                                                                \n            \n\n    \n                            \n                                                                \n            \n\n    \n            As Christians, one of the most important ways we share our faith is in how we respond to the needs around us.",
+        "Chesterfield Community Church looks for partners and opportunities to work in long-term, sustainable ways with others who have a wealth of expertise in their fields of work.",
+        "As you explore the mission programs we&rsquo;ve partnered with, you&rsquo;ll see a broad array of partners with whom we work locally, state wide, nationally, and across the globe.",
+        "Man For Man Ministries, in Anderson, IN, is a leading ministry to transition former prison inmates from incarceration to freedom. Established in 1998, and serving the Madison, Delaware, Jay, and Randolph county areas in Indiana, we strive to change communities and families by offering real world spiritual guidance, and job opportunities for former inmates.",
+        "From providing free food assistance to helping people build a path toward a brighter future, Chesterfield Food Bank Outreach Center staff and volunteers go beyond simply filling plates. We empower families and individuals through a holistic approach to address the root causes of hunger.",
+        "The Benevolence Fund is used for the purpose of giving to someone in great need in our community. Tragedy can strike at any moment for someone. Our Benevolence Fund provides resources to come through and offer a financial blessing in the face of that need. These funds serve as a lifeline for individuals and families facing financial hardships or crises, providing immediate assistance and support.",
+        "Indiana Ministries connects the local Church of God Congregations in Indiana providing training, resources and empowering them to be healthy and effective. They assist pastors and lay leaders who are passionate about the mission of their church.They seek to empower congregations to be a growing, healthy church, and assist struggling congregations.They invest in the youth and children of the State through leadership training, State Youth Conventions, and summer youth camps at both Yellow Creek Lake, and Camp Challenge.",
+        "&bull;Church of God Ministries Unit the ministry of Church of God Congregations in the United States, Canada, and around the world",
+        ".&bull;Provides Disaster Relief Coordination",
+        "&bull;Christians Broadcasting Hope Radio",
+        "&bull;Global Missions and Coordination",
+        "&bull;For more insight go to https://www.jesusisthesubject.org",
+        "Working with and through the Regional Coordinators of the Church of God for the African continent, the Africa Mission Fund enables the coordinators to walk alongside African national churches and congregations of the Church of God to provide timely funding for many types of needs. Our faithful giving enables the Africa Mission Regional Coordinators to meet immediate needs, support developing ministry strategies, and provide tangible encouragement to struggling pastors and projects across Africa. For example, and among other ways our support has been used, in the past year our giving has assisted two pastors and their congregations in Burundi who had lost everything in a flood.",
+        "Over 66% of Hondurans live in poverty. Rural Honduran communities often lack a sense of belonging, security, opportunity, and hope. This drives many to leave their families and communities. Heart to Honduras sees Hondurans differently. They see the Honduran people as capable and competent and the local communities as places with great gifts and resources yet untapped. Their model is sustainable, holistic, asset-based development work. This enables the wholistic, life-changing message of Jesus to be both heard and experienced, and aids local Kingdom collaborators in learning ways to work hand in hand to transform their world.&nbsp;",
+        "Our congregation has been actively supporting the community of Los Pinos in the mountains surrounding Lake Yojoa. This includes training and empowerment of community leaders, equipping them to support the spiritual, emotional, intellectual, and physical needs of the women, men, and children of the village. Because of our support, last year they were able to clear and prepare a space in the community for a soccer field, which now serves as a safe gathering place for young people and families.",
+        "https://www.hth.org",
+        "Click picture above to watch Heart to Honduras Video.    \n\n    \n    \n\n\n    \n                            \n                                                                \n            \n\n    \n            Provides financial assistance to aid children of poverty in ministries operated by the Church of God outside the United States.It is a ministry extension of the local congregation in the village or city. It is designed to provide long-term relationship between the church members and the children and their families, rather than between an organization and a child. It is a holistic approach in which we want to impact a child's life over an extended period of time. Four core needs are identified as the focus of partnership: Christian nurture, nutrition, education, and medical care.",
+        "https://www.childreofpromise.global/about-us",
+        "The Voice of the Martyrs (VOM) serves persecuted Christians in the world's most difficult and dangerous places to follow Christ. VOM is dedicated to inspiring all believers to a biblical faith by telling the stories of persecuted Christians, thereby inspiring a deeper commitment to Christ and the fulfillment of his Great Commission, no matter the cost. The Voice of the Martyrs continues this mission around the world today through the following purposes:",
+        "Click picture above to watch The Voice of the Martyrs video.",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/2025-missions-and-outreact-meeting-needs-1-high-q3nnh6.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.0624%3A1&amp;width=800",
+          "filename": "2025-missions-and-outreact-meeting-needs-1-high-q3nnh6.jpg",
+          "local_path": "/assets/images/2025-missions-and-outreact-meeting-needs-1-high-q3nnh6.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\2025-missions-and-outreact-meeting-needs-1-high-q3nnh6.jpg",
+          "alt": "",
+          "size_bytes": 46794,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/globe-10-copy-standard-zw894z.png",
+          "filename": "globe-10-copy-standard-zw894z.png",
+          "local_path": "/assets/images/globe-10-copy-standard-zw894z.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\globe-10-copy-standard-zw894z.png",
+          "alt": "",
+          "size_bytes": 132100,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/locally-standard-spbrm4.png",
+          "filename": "locally-standard-spbrm4.png",
+          "local_path": "/assets/images/locally-standard-spbrm4.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\locally-standard-spbrm4.png",
+          "alt": "",
+          "size_bytes": 9514,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/man-4-man-standard-82qpwg.jpg",
+          "filename": "man-4-man-standard-82qpwg.jpg",
+          "local_path": "/assets/images/man-4-man-standard-82qpwg.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\man-4-man-standard-82qpwg.jpg",
+          "alt": "",
+          "size_bytes": 12394,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/food-pantry-chesterfield-community-standard-fpp6bf.jpg",
+          "filename": "food-pantry-chesterfield-community-standard-fpp6bf.jpg",
+          "local_path": "/assets/images/food-pantry-chesterfield-community-standard-fpp6bf.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\food-pantry-chesterfield-community-standard-fpp6bf.jpg",
+          "alt": "",
+          "size_bytes": 20859,
+          "content_type": "image/jpeg"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/benevolence-standard-jf5u8c.jpg",
+          "filename": "benevolence-standard-jf5u8c.jpg",
+          "local_path": "/assets/images/benevolence-standard-jf5u8c.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\benevolence-standard-jf5u8c.jpg",
+          "alt": "",
+          "size_bytes": 17570,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/statewide-standard-9gw7by.png",
+          "filename": "statewide-standard-9gw7by.png",
+          "local_path": "/assets/images/statewide-standard-9gw7by.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\statewide-standard-9gw7by.png",
+          "alt": "",
+          "size_bytes": 8646,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/indiana-ministries-standard-vpbhkh.jpg",
+          "filename": "indiana-ministries-standard-vpbhkh.jpg",
+          "local_path": "/assets/images/indiana-ministries-standard-vpbhkh.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\indiana-ministries-standard-vpbhkh.jpg",
+          "alt": "",
+          "size_bytes": 11414,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/nationally-standard-bg4plx.png",
+          "filename": "nationally-standard-bg4plx.png",
+          "local_path": "/assets/images/nationally-standard-bg4plx.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\nationally-standard-bg4plx.png",
+          "alt": "",
+          "size_bytes": 9070,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/church-of-god-ministries-standard-21tqsl.jpg",
+          "filename": "church-of-god-ministries-standard-21tqsl.jpg",
+          "local_path": "/assets/images/church-of-god-ministries-standard-21tqsl.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\church-of-god-ministries-standard-21tqsl.jpg",
+          "alt": "",
+          "size_bytes": 5762,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/across-the-globe-standard-45851d.png",
+          "filename": "across-the-globe-standard-45851d.png",
+          "local_path": "/assets/images/across-the-globe-standard-45851d.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\across-the-globe-standard-45851d.png",
+          "alt": "",
+          "size_bytes": 16660,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/slide9-standard-70ipp7.jpg",
+          "filename": "slide9-standard-70ipp7.jpg",
+          "local_path": "/assets/images/slide9-standard-70ipp7.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\slide9-standard-70ipp7.jpg",
+          "alt": "",
+          "size_bytes": 61798,
+          "content_type": "image/jpeg"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/image-high-5b4p7m.png?enable-io=true&amp;enable=upscale&amp;crop=1.7947%3A1&amp;width=800",
+          "filename": "image-high-5b4p7m.png",
+          "local_path": "/assets/images/image-high-5b4p7m.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\image-high-5b4p7m.png",
+          "alt": "",
+          "size_bytes": 512802,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/heart-to-honduras-video-picture-standard-h1k5p4.png",
+          "filename": "heart-to-honduras-video-picture-standard-h1k5p4.png",
+          "local_path": "/assets/images/heart-to-honduras-video-picture-standard-h1k5p4.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\heart-to-honduras-video-picture-standard-h1k5p4.png",
+          "alt": "",
+          "size_bytes": 326032,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/children-of-promise-standard-oo996t.png",
+          "filename": "children-of-promise-standard-oo996t.png",
+          "local_path": "/assets/images/children-of-promise-standard-oo996t.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\children-of-promise-standard-oo996t.png",
+          "alt": "",
+          "size_bytes": 292994,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/voice-of-the-martyrs-standard-a8xvik.png",
+          "filename": "voice-of-the-martyrs-standard-a8xvik.png",
+          "local_path": "/assets/images/voice-of-the-martyrs-standard-a8xvik.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\voice-of-the-martyrs-standard-a8xvik.png",
+          "alt": "",
+          "size_bytes": 34970,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/the-voice-of-the-martyrs-video-standard-jz53ev.png",
+          "filename": "the-voice-of-the-martyrs-video-standard-jz53ev.png",
+          "local_path": "/assets/images/the-voice-of-the-martyrs-video-standard-jz53ev.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\the-voice-of-the-martyrs-video-standard-jz53ev.png",
+          "alt": "",
+          "size_bytes": 284976,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/worship-services-on-youtube",
+      "slug": "worship-services-on-youtube",
+      "title": "Worship Services on Youtube | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "We welcome you to worship on the live stream services every Sunday at 10:30am and other special events on Youtube."
+        },
+        {
+          "tag": "h3",
+          "text": "https://www.youtube.com/results?search_query=chesterfield+community+church+of+god+chesterfield+indianaYoutube:"
+        },
+        {
+          "tag": "h2",
+          "text": "Past Services are also available on Youtube."
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [\"fotorama\"];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Worship Services on Youtube | Chesterfield Community Church of God\n                                                                            \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n    \n        \n    \n                                \n                                \n                                \n            \n\n    \n            We welcome you to worship on the live stream services every Sunday at 10:30am and other special events on Youtube.\r\n&nbsp;",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/contact-us",
+      "slug": "contact-us",
+      "title": "Contact Us | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Contact Us | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n            &nbsp;",
+        "Chesterfield Community Church of God",
+        "123 Linden Lane",
+        "Chesterfield, IN&nbsp; 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Name *                                                \n                Email address *                                                \n                Message *                                    Leave this field empty                                                        \n            \n                                            \n        \n            \n                                        \n                    \n                        Submit form\n                    \n                \n                    \n    \n        \n        \n            \n            \n\n    \n\n    \n                            \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n            Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/7xew6h/logo_new3-20-224x2centeredpng-5.png?enable-io=true&amp;enable=upscale&amp;crop=2%3A1&amp;width=800",
+          "filename": "logo_new3-20-224x2centeredpng-5.png",
+          "local_path": "/assets/images/logo_new3-20-224x2centeredpng-5.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\logo_new3-20-224x2centeredpng-5.png",
+          "alt": "",
+          "size_bytes": 69708,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/church-directory",
+      "slug": "church-directory",
+      "title": "Church Directory | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "To access the Chesterfield Community Church of God Instant Church Directoryyou must have your picture and information already in the Directory."
+        },
+        {
+          "tag": "h3",
+          "text": "Pictures and information are taken regularly, as announced,following Morning Worship, in the Adult Class room."
+        },
+        {
+          "tag": "h3",
+          "text": "This is a sample of the page...click here or on the picture below to go to theInstant Church Directory website."
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Church Directory | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n                            \n                                                                \n            \n\n    \n            To access the Chesterfield Community Church of God Instant Church Directoryyou must have your picture and information already in the Directory.\r\nPictures and information are taken regularly, as announced,following Morning Worship, in the Adult Class room.\r\n&nbsp;",
+        "To download the Church Directory go&nbsp;https://www.instantchurchdirectory.com",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-high-fmucvk.png?enable-io=true&amp;enable=upscale&amp;crop=4.325%3A1&amp;width=800",
+          "filename": "instand-church-directory-logo-high-fmucvk.png",
+          "local_path": "/assets/images/instand-church-directory-logo-high-fmucvk.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-high-fmucvk.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/image-high-mqs1jq.png?enable-io=true&amp;enable=upscale&amp;crop=1.5697%3A1&amp;width=800",
+          "filename": "image-high-mqs1jq.png",
+          "local_path": "/assets/images/image-high-mqs1jq.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\image-high-mqs1jq.png",
+          "alt": "",
+          "size_bytes": 28666,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/prayer-ministry-requests",
+      "slug": "prayer-ministry-requests",
+      "title": "Prayer Ministry &amp; Requests | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "PRAYER MINISTRY"
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Prayer Ministry &amp; Requests | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n                            \n                                                                \n            \n\n    \n            PRAYER MINISTRY    \n\n    \n            Prayer is a vital part of how we seek God, connect with God, grow in our discipleship, and care for one another.",
+        "We&nbsp;maintain a current list of the prayer needs and concerns of our congregation so that we can be aware and support those in our community&mdash;our members, their loved ones, and those connected to our church&mdash;with our earnest prayers.",
+        "If you have a prayer request we can pray for, please use the form below and our Pastoral Staff and Prayer Team will earnestly pray for your request.",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/cross-straighhted-cropped-jjpg-standard-jfznyw.jpg",
+          "filename": "cross-straighhted-cropped-jjpg-standard-jfznyw.jpg",
+          "local_path": "/assets/images/cross-straighhted-cropped-jjpg-standard-jfznyw.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\cross-straighhted-cropped-jjpg-standard-jfznyw.jpg",
+          "alt": "",
+          "size_bytes": 88280,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/volunteer-schedules",
+      "slug": "volunteer-schedules",
+      "title": "Volunteer Schedules | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Ministry Volunteer Schedules"
+        },
+        {
+          "tag": "h2",
+          "text": "Volunteers are key to creating a welcoming and effective ministry.&nbsp;Those who serve are the heartbeat of our church. From kids&rsquo; ministry to usher teams, and greater team to hospitality, outreach, and pastoral care, we thrive when people step up to serve."
+        },
+        {
+          "tag": "h2",
+          "text": "Ushers"
+        },
+        {
+          "tag": "h4",
+          "text": "Coordinator: Chet Mullins"
+        },
+        {
+          "tag": "h2",
+          "text": "WELCOME TEAM"
+        },
+        {
+          "tag": "h4",
+          "text": "Coordinators: Peggy King and Cheryl Sink"
+        },
+        {
+          "tag": "h2",
+          "text": "CHILDREN'S MINISTRY"
+        },
+        {
+          "tag": "h4",
+          "text": "Susan Blower, Children's Director"
+        },
+        {
+          "tag": "h2",
+          "text": "Nursery"
+        },
+        {
+          "tag": "h2",
+          "text": "Children's Church"
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Volunteer Schedules | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n    \n    \n                            \n                                                                \n            \n\n    \n    \n            Ministry Volunteer Schedules    \n\n    \n            Volunteers are key to creating a welcoming and effective ministry.&nbsp;Those who serve are the heartbeat of our church. From kids&rsquo; ministry to usher teams, and greater team to hospitality, outreach, and pastoral care, we thrive when people step up to serve.    \n\n    \n            \r\nUshers    \n\n    \n            Coordinator: Chet Mullins    \n\n    \n\n    \n            \n            \n                                    \n                                    August 30\n                                    September 6\n                            \n        \n        \n                    \n                                    \n                        Aisle 1                    \n                                    \n                        Larry Howard                    \n                                    \n                        Jim Richey                    \n                            \n                    \n                                    \n                        Aisles 2-3                    \n                                    \n                        Terry Dickey                    \n                                    \n                        Larry Howard                    \n                            \n                    \n                                    \n                        Aisle 4                    \n                                    \n                        Tony Baker                    \n                                    \n                        Terry Dickey                    \n                            \n                    \n                                    \n                        Aisle 5                    \n                                    \n                        Kevin Jackson                    \n                                    \n                        Tony Baker                    \n                            \n                    \n                                    \n                        Aisles 6-7                    \n                                    \n                        Ned Rhoads                    \n                                    \n                        Kevin Jackson                    \n                            \n                    \n                                    \n                        Aisle 8                    \n                                    \n                        Jim Richey                    \n                                    \n                        Ned Rhoads                    \n                            \n            \n\n\n\n    \n    \n\n\n    \n            WELCOME TEAM\r\n&nbsp;",
+        "NURSERY VOLUNTEER SCHEDULE",
+        "August 2 - Litsey Dillon",
+        "August 9 - Amy Bain",
+        "August 16 - To Be Determined",
+        "August 23 - Peggy King",
+        "August 30 - Litsey Dillon",
+        "September 6 - Amy Bain",
+        "September 13 - Julie Tomlinson",
+        "September 20 - Peggy King",
+        "September 27 - Litsey Dillon",
+        "Thank you for giving your time and love to the children If you cannot be there for the date you are scheduled, please contact one of the other volunteers to trade dates.",
+        "Amy Greenwalt 623-225-3404",
+        "Litsey Dillon 765- 621-0922",
+        "Amy Bain 765-716-1207",
+        "Peggy King 765-620-1225",
+        "Julie Tomlinson 765-610-7112",
+        "CHILDREN'S CHURCH SCHEDULE",
+        "August 2 - Eileen Ruth",
+        "August 9 - TBD",
+        "August 16 - Judy Clarkson",
+        "August 23 - Janet Smith",
+        "August - No Children's Church",
+        "September 6 - Eileen Ruth",
+        "September 13 - TBD",
+        "September 20 - Judy Clarkson",
+        "September 27 - Janet Smith",
+        "Thank you for giving your time and love to the children.&nbsp;",
+        "If you cannot be there for the date you are scheduled, please contact one of the other volunteers to trade dates.",
+        "Susan Blower 317-6382-3252",
+        "Janet Smith 717-679-2205",
+        "Eileen Ruth 317-985-0126",
+        "Judy Clarkson 765-283--5304",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/image-high-ddpt41.png?enable-io=true&amp;enable=upscale&amp;crop=2.0357%3A1&amp;width=800",
+          "filename": "image-high-ddpt41.png",
+          "local_path": "/assets/images/image-high-ddpt41.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\image-high-ddpt41.png",
+          "alt": "",
+          "size_bytes": 40592,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/pastoral-search",
+      "slug": "pastoral-search",
+      "title": "Pastoral Search | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Pastoral Search | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n                            \n                                                                \n            \n\n    \n    \n\n\n    \n            Chesterfield Community Church of God: Senior Pastor Search",
+        "Mission: Know Christ &bull; Grow in Christ &bull; Care as Christ &bull; Share Christ Unconditionally",
+        "Pastoral ProfileChesterfield Community Church of God is prayerfully seeking a spiritually mature, biblically grounded, and visionary Senior Pastor to lead the congregation into its next season of ministry. We seek a pastor who loves Jesus Christ wholeheartedly, faithfully teaches and applies God&rsquo;s Word, and demonstrates Christ-like character, integrity, humility, emotional maturity, and a genuine shepherd&rsquo;s heart. The pastor will provide spiritual and visionary leadership while working collaboratively with the Board of Elders, staff, and ministry leaders; develop and equip leaders and volunteers; strengthen discipleship across generations; and build unity while honoring the church&rsquo;s heritage. A strong candidate will have pastoral leadership and preaching experience, sound biblical knowledge, effective communication and organizational skills, and an appreciation for the theology and heritage of the Church of God (Anderson, Indiana).",
+        "Church History &amp; IdentityFounded on October 17, 1957, Chesterfield Community Church of God is a welcoming, multigenerational congregation rooted in Scripture and committed to making disciples. As part of the Church of God (Anderson, Indiana), the church values biblical authority, authentic Christian fellowship, prayer, discipleship, compassionate pastoral care, and service to others. Since returning to a traditional, Scripture-centered worship format in 2021, the congregation has experienced renewed growth, strengthened finances, and significant facility improvements. The campus is debt-free, well maintained, and positioned for future ministry. Worship is traditional, Christ-centered, and Scripture-focused, featuring hymn-based congregational worship, prayer, Scripture reading, and biblical expository preaching.",
+        "CommunityLocated in Chesterfield, Indiana, the church serves a broad region throughout Madison and Delaware Counties. Although situated in a community of approximately 3,000 residents, many members travel from Anderson, Alexandria, Muncie, and surrounding communities because of the church&rsquo;s biblical teaching, traditional worship, and welcoming fellowship. Chesterfield offers small-town living with convenient access to Anderson, Muncie, and the greater Indianapolis metropolitan area. The church sees a significant opportunity to strengthen families, reach younger generations, serve neighbors, and expand its Gospel influence throughout the greater Anderson and Chesterfield communities.",
+        "Qualifications:▪Pastoral License or Ordained in the Church of God Anderson, Indiana.▪Seminary Degree or equivalent theological training▪Demonstrated experience in pastoral leadership, preaching, discipleship, visitation and team development▪Excellent interpersonal, communication, and organizational skills▪Committed to continual spiritual and leadership growth.",
+        "Contact Cecelia Dickey at grannyd721@gmail.com and/or Robert Hazen at rhazen701@gmail.com",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/pray-for-our-church-standard-pfr8o6.jpg",
+          "filename": "pray-for-our-church-standard-pfr8o6.jpg",
+          "local_path": "/assets/images/pray-for-our-church-standard-pfr8o6.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\pray-for-our-church-standard-pfr8o6.jpg",
+          "alt": "",
+          "size_bytes": 43086,
+          "content_type": "image/jpeg"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "url": "https://www.chesterfieldcommunitychurch.org/event-connection-opportunities",
+      "slug": "event-connection-opportunities",
+      "title": "Event &amp; Connection Opportunities | Chesterfield Community Church of God",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "All-Church Fellowship Opportunities"
+        },
+        {
+          "tag": "h2",
+          "text": "Everyone is invited to be a part of all the planned events to create friendship among our Church Family &amp; bring a friend!"
+        },
+        {
+          "tag": "h4",
+          "text": "Third Thursday Fun &amp; Fellowship&nbsp;"
+        },
+        {
+          "tag": "h3",
+          "text": "Click on links below."
+        }
+      ],
+      "paragraphs": [
+        "Please detail any specific requirements in the Remarks field in the last step.\",\"orderConfirmation\":null,\"freeShipping\":false,\"freeShippingAmount\":\"0.00\",\"shippingDisclaimerVisible\":false,\"pickupAllowed\":false,\"couponAllowed\":false,\"detailsPageAvailable\":true,\"socialMediaVisible\":false,\"termsPage\":null,\"termsPageUrl\":null,\"extraTerms\":null,\"pricingVisible\":true,\"orderButtonVisible\":true,\"checkoutRestricted\":false,\"shippingAdvanced\":false,\"shippingAdvancedBackEnd\":false,\"soldOutVisible\":true,\"backInStockNotificationEnabled\":false,\"canAddProducts\":true,\"nextOrderNumber\":1,\"allowedServicePoints\":[],\"sendcloudConfigured\":false,\"sendcloudFallbackPublicKey\":\"a3d50033a59b4a598f1d7ce7e72aafdf\",\"taxExemptionAllowed\":true,\"invoiceComment\":null,\"emptyCartVisible\":false,\"minimumOrderPrice\":null,\"productNumbersEnabled\":false,\"wishlistEnabled\":false,\"hideTaxOnCart\":false},\"isTreatedAsWebshop\":false};                            window.JOUWWEB.cart = {\"products\":[],\"coupon\":null,\"shippingCountryCode\":null,\"shippingChoice\":null,\"breakdown\":[]};                            window.JOUWWEB.scripts = [\"website-rendering\\/slideshow\"];                        window.parent.JOUWWEB.colorPalette = window.JOUWWEB.colorPalette;\n        \n                Event &amp; Connection Opportunities | Chesterfield Community Church of God\n                                                                            \n                    \n                    \n                    \n                    \n                    \n                    \n                    \n                                    \n                        \n                                                    \n\n\n\n\n\n\n\n\n\n\n    \n    \n                                    \n        \n            Skip to main content        \n        \n        \n            \n                    \n        \n                                                                    \n                    A Place to Call Home                \n                    \n    \n\n    \n            \n            \n        \n    \n\n    \n        \n            \n            \n            \n                        \n    \n        \n    \n        A Place to Call Home    \n\n\n            \n                \n            \n        \n                \n            Home        \n            \n                \n            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n            \n        \n                \n            About Us        \n            \n                \n            \n        \n                \n            Mission/Vision        \n            \n                \n            \n        \n                \n            Our Team        \n            \n                \n            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n            \n        \n                \n            Outreach and Missions        \n            \n                \n            \n        \n                \n            Worship Services on Youtube        \n            \n                \n            \n        \n                \n            Contact Us        \n            \n                \n            \n        \n                \n            Church Directory        \n            \n                \n            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n            \n        \n                \n            Volunteer Schedules        \n            \n                \n            \n        \n                \n            Pastoral Search        \n            \n                \n        \n    \n        \n                            \n        \n                \n            Home        \n            \n                \n                            \n        \n                \n            Event &amp; Connection Opportunities        \n            \n                \n                            \n        \n                \n            About Us        \n            \n                \n                            \n        \n                \n            Mission/Vision        \n            \n                \n                            \n        \n                \n            Our Team        \n            \n                \n                            \n        \n                \n            Ministries        \n                    \n            \n                    \n                            \n        \n                \n            Kids/ Youth        \n            \n                \n                    \n        \n                            \n        \n                \n            Outreach and Missions        \n            \n                \n                            \n        \n                \n            Worship Services on Youtube        \n            \n                \n                            \n        \n                \n            Contact Us        \n            \n                \n                            \n        \n                \n            Church Directory        \n            \n                \n                            \n        \n                \n            Prayer Ministry &amp; Requests        \n            \n                \n                            \n        \n                \n            Volunteer Schedules        \n            \n                \n                            \n        \n                \n            Pastoral Search        \n            \n                \n                                \n    \n            \n        \n    \n\n\n                    \n            \n                \n                                                            \n                \n                    \n                \n            \n                            \n                            \n                \n                \n            \n                \n            \n                Event &amp; Connection Opportunities\n                                            \n        \n    \n\n\n                            \n            \n        \n        \n        \n    \n    \n                @media screen and (min-width: 1200px) {\n            .jw-slideshow-slide-content-height-enforcer-wrapper {\n                max-height: 276px !important;\n            }\n        }\n            \n\n\n\n    var backgroundElement = document.querySelector('.jw-background');\n\n    JOUWWEB.templateConfig = {\n        header: {\n            selector: '.topmenu',\n            mobileSelector: '.jw-mobile-menu',\n            updatePusher: function (height, state) {\n\n                if (state === 'desktop') {\n                    // Expose the header height as a custom property so\n                    // we can use this to set the background height in CSS.\n                    if (backgroundElement && height) {\n                        backgroundElement.setAttribute('style', '--header-height: ' + height + 'px;');\n                    }\n                } else if (state === 'mobile') {\n                    $('.jw-menu-clone .jw-menu').css('margin-top', height);\n                }\n            },\n        },\n    };\n\n\n    \n\n    \n        \n    \n    \n                    \n    \n            We believe people are created and called by God to grow throughout our lives as individuals and together in faith as God&rsquo;s family. Many opportunities to grow and become more like Jesus are available as we discover God&rsquo;s family and discover God&rsquo;s Word. We discover God&rsquo;s Word when we engage in Biblical understanding, share with one another in curiosity, and&nbsp; grow in wisdom. We discover God&rsquo;s family when we connect in community.",
+        "You are invited and welcomed into any and all opportunities to connect.",
+        "Click on links below.    \n\n    \n    \n    \n                                                \n                                                                \n                    \n            \n\n    \n    \n            Click here for Google Maps Directions",
+        "123 Linden Lane * Chesterfield, IN 46017",
+        "765-378-7685",
+        "chesterfieldcommunitycog@gmail.com",
+        "Church Office Hours:",
+        "Monday - Wednesday 9:00 - 1:00",
+        "Thursday 9:00 - noon",
+        "Closed Friday"
+      ],
+      "assets": [
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/logo_new-3-20-22-4x2-centered-copy-white-letters-copy-2-high.png?enable-io=true&amp;enable=upscale&amp;height=70",
+          "filename": "chesterfield-community-church-of-god.png",
+          "local_path": "/assets/images/chesterfield-community-church-of-god.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\chesterfield-community-church-of-god.png",
+          "alt": "Chesterfield Community Church of God",
+          "size_bytes": 66392,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/2026-activities-insert-one-page-copy-standard.jpg",
+          "filename": "2026-activities-insert-one-page-copy-standard.jpg",
+          "local_path": "/assets/images/2026-activities-insert-one-page-copy-standard.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\2026-activities-insert-one-page-copy-standard.jpg",
+          "alt": "",
+          "size_bytes": 117110,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/ladies-bible-study-fall-2026-high-98g773.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.7778%3A1&amp;width=800",
+          "filename": "ladies-bible-study-fall-2026-high-98g773.jpg",
+          "local_path": "/assets/images/ladies-bible-study-fall-2026-high-98g773.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\ladies-bible-study-fall-2026-high-98g773.jpg",
+          "alt": "",
+          "size_bytes": 59608,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/fall-wednesday-bible-study-high-0ef5x2.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.7778%3A1&amp;width=800",
+          "filename": "fall-wednesday-bible-study-high-0ef5x2.jpg",
+          "local_path": "/assets/images/fall-wednesday-bible-study-high-0ef5x2.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\fall-wednesday-bible-study-high-0ef5x2.jpg",
+          "alt": "",
+          "size_bytes": 121676,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/9-7-25-nifty-needles-high-hxmdda.jpg?enable-io=true&amp;enable=upscale&amp;crop=1.7778%3A1&amp;width=800",
+          "filename": "9-7-25-nifty-needles-high-hxmdda.jpg",
+          "local_path": "/assets/images/9-7-25-nifty-needles-high-hxmdda.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\9-7-25-nifty-needles-high-hxmdda.jpg",
+          "alt": "",
+          "size_bytes": 100562,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/mensbreakfastcopy.jpg",
+          "filename": "mensbreakfastcopy.jpg",
+          "local_path": "/assets/images/mensbreakfastcopy.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\mensbreakfastcopy.jpg",
+          "alt": "",
+          "size_bytes": 52178,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/carry-in-dinner-first-sunday-of-every-month-copy-standard.jpg",
+          "filename": "carry-in-dinner-first-sunday-of-every-month-copy-standa.jpg",
+          "local_path": "/assets/images/carry-in-dinner-first-sunday-of-every-month-copy-standa.jpg",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\carry-in-dinner-first-sunday-of-every-month-copy-standa.jpg",
+          "alt": "",
+          "size_bytes": 58480,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/instand-church-directory-logo-standard.png",
+          "filename": "instand-church-directory-logo-standard.png",
+          "local_path": "/assets/images/instand-church-directory-logo-standard.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\instand-church-directory-logo-standard.png",
+          "alt": "",
+          "size_bytes": 3006,
+          "content_type": "image/webp"
+        },
+        {
+          "original_url": "https://primary.jwwb.nl/public/g/s/z/temp-nmcmwluytqnluuyscxyg/lkdud3/Screenshot_20210411-214629.png?enable-io=true&amp;enable=upscale&amp;crop=1.7722%3A1%2Coffset-y12&amp;width=800",
+          "filename": "screenshot_20210411-214629.png",
+          "local_path": "/assets/images/screenshot_20210411-214629.png",
+          "absolute_path": "C:\\Users\\tkswa\\.gemini\\antigravity\\scratch\\chesterfield-migration\\assets\\images\\screenshot_20210411-214629.png",
+          "alt": "",
+          "size_bytes": 656048,
+          "content_type": "image/webp"
+        }
+      ]
+    }
+  ],
+  "scraped_at": "2026-09-28T19:23:52.862Z"
+}

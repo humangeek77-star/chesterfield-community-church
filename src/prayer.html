@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prayer Ministry &amp; Requests | Chesterfield Community Church of God</title>
+  <meta name="description" content="Submit a prayer request to the prayer team and pastoral staff of Chesterfield Community Church of God."/>
+  
+  <!-- Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 800: '#1e293b', 900: '#0f172a', 950: '#090d16' },
+            amber: { 500: '#f59e0b', 600: '#d97706', 700: '#b45309' },
+            sage: { 600: '#4d6b53', 700: '#38503d' },
+            linen: '#fbf9f5',
+            parchment: '#f4efe6'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-linen text-slate-800 font-sans antialiased flex flex-col min-h-screen overflow-x-hidden">
+
+  <!-- Header -->
+  <!-- Primary Navigation -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all">
+    <div class="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 py-3 flex items-center justify-between gap-4">
+      <!-- Logo & Brand: Authentic Flame Icon + Crisp Church Name -->
+      <a href="index.html" class="flex items-center gap-3.5 group flex-shrink-0">
+        <img src="assets/images/flame-logo.png" alt="Chesterfield Community Church of God Flame Logo" class="h-11 sm:h-12 w-auto object-contain flex-shrink-0 drop-shadow-sm"/>
+        <div class="flex flex-col justify-center">
+          <span class="font-serif text-lg sm:text-xl font-bold text-navy-950 leading-tight group-hover:text-amber-700 transition-colors tracking-tight">Chesterfield Community</span>
+          <span class="text-[11px] sm:text-xs font-bold uppercase tracking-widest text-slate-500">Church of God</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links: Evenly Spaced & Clean -->
+      <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
+        <a href="index.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Home</a>
+        <a href="about.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">About Us</a>
+        <a href="team.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Our Team</a>
+        <a href="ministries.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Ministries</a>
+        <a href="missions.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Outreach & Missions</a>
+        <a href="sermons.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Worship Online</a>
+        <a href="prayer.html" class="px-3.5 py-2 text-sm font-bold text-amber-700 bg-amber-50 rounded-lg whitespace-nowrap">Prayer Requests</a>
+        <a href="contact.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Contact</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="hidden lg:flex items-center flex-shrink-0">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-amber-600 hover:bg-amber-500 rounded-lg shadow-sm hover:shadow transition-all whitespace-nowrap" title="Watch Chesterfield Community Church of God Live / Latest Service on YouTube">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Live
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 focus:outline-none" aria-label="Toggle navigation menu">
+        <span class="material-symbols-outlined text-2xl">menu</span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-5 space-y-2">
+      <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Home</a>
+      <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">About Us</a>
+      <a href="team.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Our Team</a>
+      <a href="ministries.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Ministries</a>
+      <a href="missions.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Outreach & Missions</a>
+      <a href="sermons.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Worship Online</a>
+      <a href="prayer.html" class="block px-3 py-2 rounded-md text-base font-semibold bg-amber-50 text-amber-800">Prayer Requests</a>
+      <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Contact</a>
+      <div class="pt-2">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn flex items-center justify-center gap-2 w-full py-2.5 rounded-lg bg-amber-600 text-white font-bold text-xs uppercase tracking-wider shadow">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Live on YouTube
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="bg-navy-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="text-xs uppercase font-bold tracking-widest text-amber-400 block mb-2">Intercession &bull; Care &bull; Faith</span>
+      <h1 class="text-4xl sm:text-5xl font-serif font-bold text-white mb-4">Prayer Ministry &amp; Requests</h1>
+      <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+        "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God." — Philippians 4:6
+      </p>
+    </div>
+  </section>
+
+  <!-- Prayer Content & Form -->
+  <section class="py-16 sm:py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+        
+        <!-- Left Info Column -->
+        <div class="lg:col-span-5 space-y-6">
+          <!-- Header paired cleanly with full uncropped cross image -->
+          <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5">
+            <div class="w-36 sm:w-40 flex-shrink-0 rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-white p-1">
+              <img src="assets/images/cross-straighhted-cropped-jjpg-standard-jfznyw.jpg" alt="Sanctuary Prayer Cross" class="w-full h-auto rounded-xl object-contain block"/>
+            </div>
+            <div class="space-y-2 text-center sm:text-left flex-1">
+              <span class="text-xs uppercase font-bold tracking-widest text-amber-700">We Stand With You</span>
+              <h2 class="text-2xl sm:text-3xl font-serif font-bold text-navy-900 leading-tight">How May We Pray for You?</h2>
+              <p class="text-slate-600 leading-relaxed text-xs sm:text-sm mt-1">
+                At Chesterfield Community Church of God, we believe deeply in the power of unified prayer. Our pastoral staff and prayer chain intercede regularly for our community.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pastor Becky Fauntleroy Care Card -->
+          <div class="p-4 rounded-xl border border-slate-200 bg-linen flex items-center gap-4 shadow-sm">
+            <img src="assets/images/becky-fauntleroy.jpg" alt="Rev. Becky Fauntleroy, Associate Pastor" class="size-14 rounded-xl object-cover object-top border border-slate-200 shadow-sm flex-shrink-0"/>
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-amber-700">Pastoral Care &amp; Visitation</span>
+              <h3 class="font-serif font-bold text-base text-navy-900">Rev. Becky Fauntleroy</h3>
+              <p class="text-xs text-slate-600 mt-0.5">Available for hospital visitation, phone prayer, and one-on-one spiritual support.</p>
+            </div>
+          </div>
+
+          <!-- Confidential & Safe -->
+          <div class="p-4 rounded-xl bg-linen border border-slate-200 space-y-1.5 shadow-sm">
+            <div class="flex items-center gap-2 text-navy-900 font-bold font-serif text-sm">
+              <span class="material-symbols-outlined text-amber-600 text-base">lock</span> Confidential &amp; Safe
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              You can choose whether your request is shared with our dedicated church prayer chain or kept strictly confidential among pastoral staff only.
+            </p>
+          </div>
+
+          <!-- Contact & Office Hours -->
+          <div class="space-y-1.5 text-xs text-slate-500 pt-2 border-t border-slate-200">
+            <p><strong>Direct Pastoral Care:</strong> (765) 378-7685</p>
+            <p><strong>Office Hours:</strong> Mon &ndash; Wed 9:00 AM &ndash; 1:00 PM</p>
+          </div>
+        </div>
+
+        <!-- Right Form Column -->
+        <div class="lg:col-span-7">
+          <div class="bg-linen p-8 rounded-2xl border border-slate-200/80 shadow-md">
+            <h3 class="font-serif font-bold text-2xl text-navy-900 mb-6">Send Your Prayer Request</h3>
+
+            <form id="prayer-form" class="space-y-5">
+              <div>
+                <label for="prayer-name" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Your Name (Optional)</label>
+                <input type="text" id="prayer-name" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white" placeholder="First and last name"/>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="prayer-email" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Email Address</label>
+                  <input type="email" id="prayer-email" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white" placeholder="name@example.com"/>
+                </div>
+                <div>
+                  <label for="prayer-phone" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Phone Number</label>
+                  <input type="tel" id="prayer-phone" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white" placeholder="(765) 000-0000"/>
+                </div>
+              </div>
+
+              <div>
+                <label for="prayer-message" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Prayer Needs / Request *</label>
+                <textarea id="prayer-message" required rows="4" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white" placeholder="Please share details about your physical healing, family, spiritual journey, or praise report..."></textarea>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <input type="checkbox" id="prayer-confidential" class="mt-1 size-4 rounded border-slate-300 text-amber-600 focus:ring-amber-500"/>
+                <label for="prayer-confidential" class="text-xs text-slate-600 leading-normal">
+                  <strong>Pastoral Staff Only:</strong> Please keep this request strictly confidential between pastors.
+                </label>
+              </div>
+
+              <button type="submit" class="w-full py-3 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-lg text-sm transition-colors shadow">
+                Submit Prayer Request
+              </button>
+
+              <div id="prayer-toast" class="hidden p-4 rounded-lg bg-green-50 border border-green-200 text-green-800 text-xs">
+                &check; Thank you. Your prayer request has been received. Our pastors and prayer chain will be lifting this up before God.
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Pastoral Search Prayer Callout -->
+  <section class="py-14 bg-parchment/60 border-t border-slate-200/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <div class="max-w-md mx-auto rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 bg-navy-950">
+        <img src="assets/images/pray-for-our-church-standard-pfr8o6.jpg" alt="Pray for Our Church - Pray for our Search Team, Pray for our New Pastor" class="w-full h-auto object-cover block"/>
+      </div>
+      <div class="space-y-2">
+        <h2 class="text-2xl sm:text-3xl font-serif font-bold text-navy-900">Praying for Our Pastoral Search</h2>
+        <p class="text-slate-600 text-sm leading-relaxed max-w-2xl mx-auto">
+          Our church body is actively united in prayer as our search committee seeks God's chosen leader for the next season of fruitful ministry at Chesterfield Community Church of God.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-950 text-slate-400 py-10 border-t border-navy-900 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500">
+      <p>&copy; 2026 Chesterfield Community Church of God. 123 Linden Lane, Chesterfield, IN 46017</p>
+      <div class="flex items-center gap-4">
+        <a href="index.html" class="hover:text-amber-400">Home</a>
+        <a href="about.html" class="hover:text-amber-400">About</a>
+        <a href="team.html" class="hover:text-amber-400">Team</a>
+        <a href="contact.html" class="hover:text-amber-400">Contact</a>
+        <a href="https://www.facebook.com/chesterfieldcommunitychog" target="_blank" rel="noopener noreferrer" class="hover:text-[#1877F2] flex items-center gap-1 text-slate-400" title="Visit our Facebook Page">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    const prayerForm = document.getElementById('prayer-form');
+    const prayerToast = document.getElementById('prayer-toast');
+    prayerForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      prayerToast.classList.remove('hidden');
+      prayerForm.reset();
+      setTimeout(() => {
+        prayerToast.classList.add('hidden');
+      }, 7000);
+    });
+  </script>
+  <script src="assets/js/live-sync.js"></script>
+</body>
+</html>

@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Worship Services on YouTube | Chesterfield Community Church of God</title>
+  <meta name="description" content="Watch Chesterfield Community Church of God worship services, sermons, and livestreams online every Sunday at 10:30 AM."/>
+  
+  <!-- Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 800: '#1e293b', 900: '#0f172a', 950: '#090d16' },
+            amber: { 500: '#f59e0b', 600: '#d97706', 700: '#b45309' },
+            sage: { 600: '#4d6b53', 700: '#38503d' },
+            linen: '#fbf9f5',
+            parchment: '#f4efe6'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-linen text-slate-800 font-sans antialiased flex flex-col min-h-screen overflow-x-hidden">
+
+  <!-- Primary Navigation -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all">
+    <div class="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 py-3 flex items-center justify-between gap-4">
+      <!-- Logo & Brand: Authentic Flame Icon + Crisp Church Name -->
+      <a href="index.html" class="flex items-center gap-3.5 group flex-shrink-0">
+        <img src="assets/images/flame-logo.png" alt="Chesterfield Community Church of God Flame Logo" class="h-11 sm:h-12 w-auto object-contain flex-shrink-0 drop-shadow-sm"/>
+        <div class="flex flex-col justify-center">
+          <span class="font-serif text-lg sm:text-xl font-bold text-navy-950 leading-tight group-hover:text-amber-700 transition-colors tracking-tight">Chesterfield Community</span>
+          <span class="text-[11px] sm:text-xs font-bold uppercase tracking-widest text-slate-500">Church of God</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
+        <a href="index.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Home</a>
+        <a href="about.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">About Us</a>
+        <a href="team.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Our Team</a>
+        <a href="ministries.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Ministries</a>
+        <a href="missions.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Outreach & Missions</a>
+        <a href="sermons.html" class="px-3.5 py-2 text-sm font-bold text-amber-700 bg-amber-50 rounded-lg whitespace-nowrap">Worship Online</a>
+        <a href="prayer.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Prayer Requests</a>
+        <a href="contact.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Contact</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="hidden lg:flex items-center flex-shrink-0">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-amber-600 hover:bg-amber-500 rounded-lg shadow-sm hover:shadow transition-all whitespace-nowrap" title="Watch Chesterfield Community Church of God Live / Latest Service on YouTube">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Live
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 focus:outline-none" aria-label="Toggle navigation menu">
+        <span class="material-symbols-outlined text-2xl">menu</span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-5 space-y-2">
+      <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Home</a>
+      <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">About Us</a>
+      <a href="team.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Our Team</a>
+      <a href="ministries.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Ministries</a>
+      <a href="missions.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Outreach & Missions</a>
+      <a href="sermons.html" class="block px-3 py-2 rounded-md text-base font-semibold bg-amber-50 text-amber-800">Worship Online</a>
+      <a href="prayer.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Prayer Requests</a>
+      <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Contact</a>
+      <div class="pt-2">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn flex items-center justify-center gap-2 w-full py-2.5 rounded-lg bg-amber-600 text-white font-bold text-xs uppercase tracking-wider shadow">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Live on YouTube
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner: Framed to showcase the authentic church building and steeple -->
+  <section class="relative bg-navy-900 text-white min-h-[560px] lg:min-h-[620px] flex items-center py-16 sm:py-20 lg:py-24 overflow-hidden border-b border-slate-200">
+    <!-- Atmospheric Background Image - Perfectly positioned to show the full church building and lawn -->
+    <div class="absolute inset-0 pointer-events-none overflow-hidden">
+      <img src="assets/images/picture-of-church-edited-without-logo-and-name-copy-hig.jpg" alt="Chesterfield Community Church of God" class="w-full h-full object-cover opacity-85 sm:opacity-90 brightness-115 contrast-105" style="object-position: center 82%;"/>
+    </div>
+    <!-- Soft readability scrims that allow the church architecture, windows, and steeple to shine through warmly -->
+    <div class="absolute inset-0 bg-gradient-to-r from-navy-950/90 via-navy-950/50 to-transparent pointer-events-none"></div>
+    <div class="absolute inset-0 bg-gradient-to-t from-navy-950/60 via-transparent to-navy-950/20 pointer-events-none"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+      <div class="flex flex-wrap items-center gap-3">
+        <!-- Live Status Badge -->
+        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-red-600/30 border border-red-500/50 text-red-200 text-xs font-bold uppercase tracking-wider shadow-sm">
+          <span class="size-2 rounded-full bg-red-500 animate-pulse"></span>
+          Live Sundays &bull; 10:30 AM EST
+        </span>
+        <span class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/15 border border-white/20 text-slate-100 text-xs font-medium backdrop-blur-sm">
+          <span class="material-symbols-outlined text-sm text-amber-400">nest_audio</span> Chesterfield Community Church of God &mdash; Indiana
+        </span>
+      </div>
+
+      <div class="max-w-3xl space-y-4">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight drop-shadow-sm">
+          Worship With Us Online
+        </h1>
+        <p class="text-slate-100 text-base sm:text-lg leading-relaxed font-normal max-w-2xl drop-shadow">
+          Experience heartfelt musical praise, choral worship, and practical, Bible-grounded preaching wherever you are. Join our church family every Sunday morning or watch full sermon broadcasts anytime.
+        </p>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex flex-wrap items-center gap-4 pt-2">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn px-6 py-3.5 rounded-lg bg-amber-600 hover:bg-amber-500 text-white font-semibold text-sm shadow-lg hover:shadow-xl transition-all flex items-center gap-2">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Latest Service &rarr;
+        </a>
+        <a href="#study-center" class="px-5 py-3.5 rounded-lg bg-white/15 hover:bg-white/25 text-white font-medium text-sm border border-white/25 backdrop-blur-sm transition-all flex items-center gap-2">
+          <span class="material-symbols-outlined text-base">menu_book</span> Weekly Scripture &amp; Study
+        </a>
+        <a href="#sermon-archive" class="px-5 py-3.5 rounded-lg bg-white/15 hover:bg-white/25 text-white font-medium text-sm border border-white/25 backdrop-blur-sm transition-all flex items-center gap-2">
+          <span class="material-symbols-outlined text-base">video_library</span> Message Archive
+        </a>
+      </div>
+
+      <!-- Quick Metrics Row -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 border-t border-white/20 max-w-4xl text-xs text-slate-200">
+        <div>
+          <span class="font-serif text-lg sm:text-xl font-bold text-white block">10:30 AM</span>
+          <span class="text-slate-300">Sunday Morning Stream</span>
+        </div>
+        <div>
+          <span class="font-serif text-lg sm:text-xl font-bold text-white block">240+ Believers</span>
+          <span class="text-slate-300">YouTube Channel Family</span>
+        </div>
+        <div>
+          <span class="font-serif text-lg sm:text-xl font-bold text-white block">190+ Videos</span>
+          <span class="text-slate-300">Sermons &amp; Specials Online</span>
+        </div>
+        <div>
+          <span class="font-serif text-lg sm:text-xl font-bold text-white block">Kirk Bookout</span>
+          <span class="text-slate-300">Interim Pastor</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Sunday Worship Companion: Word, Song & Daily Walk -->
+  <section id="study-center" class="py-14 sm:py-20 bg-linen border-b border-slate-200/90 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+      
+      <!-- Section Header with Balanced Spread -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-slate-200 pb-5">
+        <div class="space-y-1.5">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-800 text-xs font-bold uppercase tracking-wider">
+            <span class="material-symbols-outlined text-sm text-amber-700">church</span>
+            Weekly Worship Companion &bull; Chesterfield Community Church of God
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">Word, Song &amp; Daily Walk</h2>
+          <p class="text-slate-600 text-xs sm:text-sm max-w-3xl">
+            Worship doesn't end when the benediction is spoken. Deepen your faith all week long through our weekly preaching focus, the stories behind our choral praise, and daily Scripture devotions.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center gap-3 text-xs font-semibold flex-shrink-0">
+          <span class="px-3.5 py-2 rounded-xl bg-white border border-slate-200 shadow-sm text-slate-700 flex items-center gap-2">
+            <span class="size-2 rounded-full bg-green-500 animate-pulse"></span> Sundays &bull; 9:30 AM Study &bull; 10:30 AM Worship
+          </span>
+        </div>
+      </div>
+
+      <!-- Main 3-Pillar Balanced Grid (Spans Full Width Naturally) -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+        
+        <!-- Pillar 1: The Word & Scripture -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border border-slate-200 shadow-sm flex flex-col justify-between space-y-6 relative overflow-hidden group hover:border-amber-400 transition-colors">
+          <!-- Top Accent Ribbon -->
+          <div class="space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+              <span class="px-2.5 py-1 rounded-md bg-amber-100 text-amber-800 text-[10px] font-bold uppercase tracking-wider">
+                Pillar 1 &bull; The Word
+              </span>
+              <span class="text-xs text-slate-500 font-semibold flex items-center gap-1">
+                <span class="material-symbols-outlined text-amber-600 text-sm">person</span> Dr. Jerry Grubbs
+              </span>
+            </div>
+
+            <div class="space-y-1">
+              <span class="text-[11px] font-bold uppercase tracking-widest text-amber-700">Epistle of James Series</span>
+              <h3 class="font-serif text-2xl font-bold text-navy-900">Living in the Midst</h3>
+              <p class="text-xs text-slate-500 font-medium">
+                Teaching Passage: <strong class="text-navy-900">James 4:13&ndash;17</strong>
+              </p>
+            </div>
+
+            <!-- Scripture Callout -->
+            <div class="p-4 sm:p-5 rounded-2xl bg-parchment border-l-4 border-amber-600 relative space-y-2">
+              <span class="material-symbols-outlined text-amber-500/30 text-3xl absolute right-3 top-3">format_quote</span>
+              <p class="font-serif text-slate-800 text-xs sm:text-sm leading-relaxed italic pr-4">
+                &ldquo;Come now, you who say, &lsquo;Today or tomorrow we will go into such and such a town and trade&rsquo;&mdash;yet you do not know what tomorrow will bring... Instead say, &lsquo;If the Lord wills, we will live and do this or that.&rsquo;&rdquo;
+              </p>
+              <div class="text-right text-[11px] font-bold text-amber-800">
+                &mdash; James 4:13&ndash;15
+              </div>
+            </div>
+
+            <!-- Pastoral Insight -->
+            <div class="space-y-2 text-xs text-slate-600 leading-relaxed">
+              <h4 class="font-serif font-bold text-sm text-navy-900 flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-amber-600 text-base">lightbulb</span>
+                Heart of the Message
+              </h4>
+              <p>
+                Humility before God is not helplessness&mdash;it is having the quiet confidence that while tomorrow is unknown to us, it is completely held in God's loving hands. Release anxious control and trust His daily providence.
+              </p>
+            </div>
+
+            <!-- Core Takeaways -->
+            <div class="space-y-1.5 pt-2">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">Weekly Applications</span>
+              <div class="space-y-1 text-xs text-slate-700">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-green-600 text-sm">check_circle</span>
+                  <span><strong>Surrender:</strong> Live with an &ldquo;If the Lord wills&rdquo; mindset.</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-green-600 text-sm">check_circle</span>
+                  <span><strong>Peace:</strong> Trade anxious striving for humble prayer.</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-green-600 text-sm">check_circle</span>
+                  <span><strong>Obedience:</strong> Do the good God places before you today (v. 17).</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Action Button -->
+          <div class="pt-4 border-t border-slate-100">
+            <button onclick="alert('Study Guide - Living in the Midst (James 4:13-17)\n\n1. Where in your life are you most tempted to rely on self-sufficiency instead of seeking God\'s guidance?\n2. What does saying \'If the Lord wills\' look like in your daily schedule and career decisions?\n3. How does remembering that life is a \'mist\' bring freedom from anxiety rather than despair?\n4. Read James 4:17. What act of kindness or service has God prompted you to do this week?\n\nChesterfield Community Church of God &bull; Rev. Dr. Jerry Grubbs');" class="w-full py-2.5 rounded-xl bg-navy-900 hover:bg-navy-800 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-2 shadow-sm cursor-pointer">
+              <span class="material-symbols-outlined text-sm">quiz</span>
+              View Study &amp; Reflection Prompts
+            </button>
+          </div>
+        </div>
+
+        <!-- Pillar 2: The Song & Choral Worship -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border border-slate-200 shadow-sm flex flex-col justify-between space-y-6 relative overflow-hidden group hover:border-amber-400 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+              <span class="px-2.5 py-1 rounded-md bg-amber-100 text-amber-800 text-[10px] font-bold uppercase tracking-wider">
+                Pillar 2 &bull; The Song
+              </span>
+              <span class="text-xs text-slate-500 font-semibold flex items-center gap-1">
+                <span class="material-symbols-outlined text-amber-600 text-sm">music_note</span> Dr. Lisa Moore
+              </span>
+            </div>
+
+            <div class="space-y-1">
+              <span class="text-[11px] font-bold uppercase tracking-widest text-amber-700">Hymn of the Week</span>
+              <h3 class="font-serif text-2xl font-bold text-navy-900">Great Is Thy Faithfulness</h3>
+              <p class="text-xs text-slate-500 font-medium">
+                Written by <strong class="text-navy-900">Thomas Chisholm (1923)</strong> &bull; Hymn No. 43
+              </p>
+            </div>
+
+            <!-- Hymn Lyrics Callout -->
+            <div class="p-4 sm:p-5 rounded-2xl bg-parchment border-l-4 border-amber-600 relative space-y-2">
+              <span class="material-symbols-outlined text-amber-500/30 text-3xl absolute right-3 top-3">library_music</span>
+              <p class="font-serif text-slate-800 text-xs sm:text-sm leading-relaxed italic pr-4">
+                &ldquo;Great is Thy faithfulness, O God my Father; There is no shadow of turning with Thee; Thou changest not, Thy compassions, they fail not; As Thou hast been, Thou forever wilt be.&rdquo;
+              </p>
+              <div class="text-right text-[11px] font-bold text-amber-800">
+                &mdash; Based on Lamentations 3:22&ndash;23
+              </div>
+            </div>
+
+            <!-- The Story Behind the Song -->
+            <div class="space-y-2 text-xs text-slate-600 leading-relaxed">
+              <h4 class="font-serif font-bold text-sm text-navy-900 flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-amber-600 text-base">auto_stories</span>
+                The Story Behind the Song
+              </h4>
+              <p>
+                Thomas Chisholm suffered frail health all his life and never made much money. Yet he wrote this beloved hymn not in a season of dramatic rescue, but out of ordinary morning gratitude: <em>&ldquo;My income was never large, but Heavenly Father never failed to provide, displaying wonderful displays of His sustaining grace.&rdquo;</em>
+              </p>
+            </div>
+
+            <!-- Choral Leadership Note -->
+            <div class="space-y-1 text-xs text-slate-600 leading-relaxed pt-1">
+              <p class="italic text-slate-500">
+                &ldquo;Our choir blends timeless hymns like this with contemporary praise to remind us that God's faithful presence never waivers.&rdquo; &mdash; <strong>Rev. Dr. Lisa Moore</strong>
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Action Button -->
+          <div class="pt-4 border-t border-slate-100">
+            <button onclick="alert('Story Behind the Hymn: Great Is Thy Faithfulness\n\nAuthor: Thomas O. Chisholm (1866–1960)\nComposer: William M. Runyan (1923)\nScripture: Lamentations 3:22-23\n\nChisholm sent the poem to composer William Runyan at the Moody Bible Institute, who wrote the music to accompany it. The hymn was later popularized worldwide through Billy Graham crusades.\n\nChesterfield Community Church of God &bull; Choral & Music Ministry');" class="w-full py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-2 shadow-sm cursor-pointer">
+              <span class="material-symbols-outlined text-sm">menu_book</span>
+              Read Hymn History &amp; Scripture
+            </button>
+          </div>
+        </div>
+
+        <!-- Pillar 3: The Daily Walk & Discipleship -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border border-slate-200 shadow-sm flex flex-col justify-between space-y-6 relative overflow-hidden group hover:border-amber-400 transition-colors">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+              <span class="px-2.5 py-1 rounded-md bg-amber-100 text-amber-800 text-[10px] font-bold uppercase tracking-wider">
+                Pillar 3 &bull; Daily Walk
+              </span>
+              <span class="text-xs text-slate-500 font-semibold flex items-center gap-1">
+                <span class="material-symbols-outlined text-amber-600 text-sm">favorite</span> Rev. Becky Fauntleroy
+              </span>
+            </div>
+
+            <div class="space-y-1">
+              <span class="text-[11px] font-bold uppercase tracking-widest text-amber-700">Weekly Devotions</span>
+              <h3 class="font-serif text-2xl font-bold text-navy-900">Daily Scripture Readings</h3>
+              <p class="text-xs text-slate-500 font-medium">
+                Spend 10 minutes each morning in God's Word
+              </p>
+            </div>
+
+            <!-- 6-Day Reading Plan -->
+            <div class="space-y-1.5 pt-1">
+              <div class="flex items-center justify-between p-2 rounded-lg bg-linen text-xs">
+                <div class="flex items-center gap-2">
+                  <span class="px-1.5 py-0.5 rounded font-mono font-bold text-[9px] bg-amber-600/15 text-amber-800">MON</span>
+                  <span class="font-semibold text-navy-900">James 4:1&ndash;10</span>
+                </div>
+                <span class="text-[10px] text-slate-500 italic">Humility Before God</span>
+              </div>
+              <div class="flex items-center justify-between p-2 rounded-lg bg-linen text-xs">
+                <div class="flex items-center gap-2">
+                  <span class="px-1.5 py-0.5 rounded font-mono font-bold text-[9px] bg-amber-600/15 text-amber-800">TUE</span>
+                  <span class="font-semibold text-navy-900">Proverbs 3:5&ndash;8</span>
+                </div>
+                <span class="text-[10px] text-slate-500 italic">Trust With All Your Heart</span>
+              </div>
+              <div class="flex items-center justify-between p-2 rounded-lg bg-amber-50 border border-amber-200/60 text-xs">
+                <div class="flex items-center gap-2">
+                  <span class="px-1.5 py-0.5 rounded font-mono font-bold text-[9px] bg-amber-600 text-white">WED</span>
+                  <span class="font-semibold text-navy-900">James 4:13&ndash;17</span>
+                </div>
+                <span class="text-[10px] font-bold text-amber-700 italic">Theme Scripture</span>
+              </div>
+              <div class="flex items-center justify-between p-2 rounded-lg bg-linen text-xs">
+                <div class="flex items-center gap-2">
+                  <span class="px-1.5 py-0.5 rounded font-mono font-bold text-[9px] bg-amber-600/15 text-amber-800">THU</span>
+                  <span class="font-semibold text-navy-900">Matthew 6:25&ndash;34</span>
+                </div>
+                <span class="text-[10px] text-slate-500 italic">Do Not Be Anxious</span>
+              </div>
+              <div class="flex items-center justify-between p-2 rounded-lg bg-linen text-xs">
+                <div class="flex items-center gap-2">
+                  <span class="px-1.5 py-0.5 rounded font-mono font-bold text-[9px] bg-amber-600/15 text-amber-800">FRI</span>
+                  <span class="font-semibold text-navy-900">Psalm 90:12&ndash;17</span>
+                </div>
+                <span class="text-[10px] text-slate-500 italic">Numbering Our Days</span>
+              </div>
+              <div class="flex items-center justify-between p-2 rounded-lg bg-linen text-xs">
+                <div class="flex items-center gap-2">
+                  <span class="px-1.5 py-0.5 rounded font-mono font-bold text-[9px] bg-amber-600/15 text-amber-800">SAT</span>
+                  <span class="font-semibold text-navy-900">Romans 12:1&ndash;2</span>
+                </div>
+                <span class="text-[10px] text-slate-500 italic">Living Sacrifices</span>
+              </div>
+            </div>
+
+            <!-- Family Table Question -->
+            <div class="p-3 rounded-xl bg-parchment border border-amber-200/60 text-xs space-y-1">
+              <span class="font-bold text-navy-900 block flex items-center gap-1">
+                <span class="material-symbols-outlined text-amber-700 text-sm">forum</span> Family Dinner Question:
+              </span>
+              <p class="text-slate-600 text-[11px] italic">
+                &ldquo;Where in our family plans this week can we practice saying &lsquo;If the Lord wills&rsquo; together?&rdquo;
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Action Buttons -->
+          <div class="pt-4 border-t border-slate-100 flex gap-2">
+            <a href="prayer.html" class="flex-1 text-center py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm">favorite</span> Request Prayer
+            </a>
+            <a href="contact.html" class="flex-1 text-center py-2.5 rounded-xl bg-linen hover:bg-amber-100 text-navy-900 font-semibold text-xs border border-slate-200 transition-colors flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-sm">church</span> Join Sunday
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Preaching & Worship Leadership Section -->
+  <section class="py-16 sm:py-20 bg-parchment/60 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Heart &amp; Truth</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">Our Sunday Worship Experience</h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          Every broadcast brings together inspiring choral praise and faithful, practical expository messages from God's Word.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <!-- Worship Pastor Card -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-7 flex flex-col sm:flex-row gap-5 items-center sm:items-start shadow-sm hover:shadow-md transition-shadow">
+          <img src="assets/images/lisa-moore.jpg" alt="Rev. Dr. Lisa Moore, Worship Pastor" class="size-24 rounded-2xl object-cover object-top border border-slate-200 shadow-sm flex-shrink-0"/>
+          <div class="space-y-2 text-center sm:text-left flex-1">
+            <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Choral &amp; Congregational Praise</span>
+            <h3 class="font-serif font-bold text-xl text-navy-900">Rev. Dr. Lisa Moore</h3>
+            <p class="text-[11px] font-bold text-slate-500 uppercase">Worship Pastor</p>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed pt-1">
+              Directing our choir, vocalists, and instrumental ensembles, blending timeless classic hymns with contemporary praise choruses to fix our eyes on the Lord Jesus.
+            </p>
+          </div>
+        </div>
+
+        <!-- Preaching Minister Card -->
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 sm:p-7 flex flex-col sm:flex-row gap-5 items-center sm:items-start shadow-sm hover:shadow-md transition-shadow">
+          <img src="assets/images/kirk-bookout.jpg" alt="Kirk Bookout, Interim Pastor" class="size-24 rounded-2xl object-cover object-top border border-slate-200 shadow-sm flex-shrink-0"/>
+          <div class="space-y-2 text-center sm:text-left flex-1">
+            <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Biblical Truth &amp; Practical Life</span>
+            <h3 class="font-serif font-bold text-xl text-navy-900">Kirk Bookout</h3>
+            <p class="text-[11px] font-bold text-slate-500 uppercase">Interim Pastor</p>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed pt-1">
+              Guiding our congregation through engaging expository preaching, chapter-by-chapter biblical inquiry, and practical encouragement for discipleship in today's world.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Sermons & Preaching Series Archive -->
+  <section id="sermon-archive" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200/90 pb-4">
+        <div>
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Message Archives</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900 mt-1">Recent Messages &amp; Series</h2>
+        </div>
+        <a href="https://www.youtube.com/@ChesterfieldCommunityChu-ye6vh/videos" target="_blank" rel="noopener" class="text-xs font-bold uppercase tracking-wider text-amber-700 hover:text-amber-800 flex items-center gap-1">
+          <span>View All 190+ Videos on YouTube</span> &rarr;
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Message 1 -->
+        <div class="bg-linen rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <a href="https://www.youtube.com/watch?v=4s8OzpjaVgk" target="_blank" rel="noopener" class="block h-48 overflow-hidden bg-slate-900 relative" title="Watch 'Living in the Midst' on YouTube">
+              <img src="assets/images/thumb-sermon-james-max.jpg" alt="Living in the Midst - James 4:13-17" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+              <div class="absolute inset-0 bg-navy-950/20 group-hover:bg-navy-950/40 transition-colors flex items-center justify-center">
+                <span class="size-12 rounded-full bg-red-600/95 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-2xl ml-0.5">play_arrow</span>
+                </span>
+              </div>
+              <span class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded text-[10px] font-mono bg-navy-950/80 text-white">58:24</span>
+              <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-amber-600 text-white">James Series</span>
+            </a>
+            <div class="p-5 space-y-2">
+              <h3 class="font-serif font-bold text-lg text-navy-900 group-hover:text-amber-700 transition-colors">
+                <a href="https://www.youtube.com/watch?v=4s8OzpjaVgk" target="_blank" rel="noopener">Living in the Midst</a>
+              </h3>
+              <p class="text-[11px] font-bold text-amber-700 uppercase tracking-wider">James 4:13&ndash;17 &bull; Dr. Jerry Grubbs</p>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Discovering how to surrender our future ambitions to God's will and walk in humility amid life's uncertainties.
+              </p>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <a href="https://www.youtube.com/watch?v=4s8OzpjaVgk" target="_blank" rel="noopener" class="text-xs font-bold text-navy-900 hover:text-amber-700 flex items-center gap-1 pt-3 border-t border-slate-200">
+              <span>Watch Service</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Message 2 -->
+        <div class="bg-linen rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <a href="https://www.youtube.com/watch?v=pdHGVr1NG7U" target="_blank" rel="noopener" class="block h-48 overflow-hidden bg-slate-900 relative" title="Watch 'A Long Way From Here' on YouTube">
+              <img src="assets/images/thumb-sermon-genesis-max.jpg" alt="A Long Way From Here - Genesis 12:1-9" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+              <div class="absolute inset-0 bg-navy-950/20 group-hover:bg-navy-950/40 transition-colors flex items-center justify-center">
+                <span class="size-12 rounded-full bg-red-600/95 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-2xl ml-0.5">play_arrow</span>
+                </span>
+              </div>
+              <span class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded text-[10px] font-mono bg-navy-950/80 text-white">54:12</span>
+              <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-amber-600 text-white">Genesis Series</span>
+            </a>
+            <div class="p-5 space-y-2">
+              <h3 class="font-serif font-bold text-lg text-navy-900 group-hover:text-amber-700 transition-colors">
+                <a href="https://www.youtube.com/watch?v=pdHGVr1NG7U" target="_blank" rel="noopener">A Long Way From Here</a>
+              </h3>
+              <p class="text-[11px] font-bold text-amber-700 uppercase tracking-wider">Genesis 12:1&ndash;9 &bull; Dr. Jerry Grubbs</p>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Reflecting on Abraham's call to step out in obedience and trust God even when the final destination is still unseen.
+              </p>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <a href="https://www.youtube.com/watch?v=pdHGVr1NG7U" target="_blank" rel="noopener" class="text-xs font-bold text-navy-900 hover:text-amber-700 flex items-center gap-1 pt-3 border-t border-slate-200">
+              <span>Watch Service</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Message 3 -->
+        <div class="bg-linen rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <a href="https://www.youtube.com/watch?v=tq0Zq50rXH0" target="_blank" rel="noopener" class="block h-48 overflow-hidden bg-slate-900 relative" title="Watch 'The Bread That Unites' on YouTube">
+              <img src="assets/images/thumb-sermon-communion-max.jpg" alt="The Bread That Unites - 1 Cor. 11:17-33" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+              <div class="absolute inset-0 bg-navy-950/20 group-hover:bg-navy-950/40 transition-colors flex items-center justify-center">
+                <span class="size-12 rounded-full bg-red-600/95 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-2xl ml-0.5">play_arrow</span>
+                </span>
+              </div>
+              <span class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded text-[10px] font-mono bg-navy-950/80 text-white">1:02:15</span>
+              <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-amber-600 text-white">Communion</span>
+            </a>
+            <div class="p-5 space-y-2">
+              <h3 class="font-serif font-bold text-lg text-navy-900 group-hover:text-amber-700 transition-colors">
+                <a href="https://www.youtube.com/watch?v=tq0Zq50rXH0" target="_blank" rel="noopener">The Bread That Unites</a>
+              </h3>
+              <p class="text-[11px] font-bold text-amber-700 uppercase tracking-wider">1 Cor. 11:17&ndash;33 &bull; Dr. Jerry Grubbs</p>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Celebrating the sacred communion table: how the broken body of Christ gathers diverse believers into unified family.
+              </p>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <a href="https://www.youtube.com/watch?v=tq0Zq50rXH0" target="_blank" rel="noopener" class="text-xs font-bold text-navy-900 hover:text-amber-700 flex items-center gap-1 pt-3 border-t border-slate-200">
+              <span>Watch Service</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Message 4 -->
+        <div class="bg-linen rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <a href="https://www.youtube.com/watch?v=1A3TwKlP0Mc" target="_blank" rel="noopener" class="block h-48 overflow-hidden bg-slate-900 relative" title="Watch 'The Heart of Romans' on YouTube">
+              <img src="assets/images/thumb-sermon-romans-max.jpg" alt="The Heart of Romans - Romans 8:35-39" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+              <div class="absolute inset-0 bg-navy-950/20 group-hover:bg-navy-950/40 transition-colors flex items-center justify-center">
+                <span class="size-12 rounded-full bg-red-600/95 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                  <span class="material-symbols-outlined text-2xl ml-0.5">play_arrow</span>
+                </span>
+              </div>
+              <span class="absolute bottom-2.5 right-2.5 px-2 py-0.5 rounded text-[10px] font-mono bg-navy-950/80 text-white">51:40</span>
+              <span class="absolute top-2.5 left-2.5 px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-amber-600 text-white">Romans Series</span>
+            </a>
+            <div class="p-5 space-y-2">
+              <h3 class="font-serif font-bold text-lg text-navy-900 group-hover:text-amber-700 transition-colors">
+                <a href="https://www.youtube.com/watch?v=1A3TwKlP0Mc" target="_blank" rel="noopener">The Heart of Romans</a>
+              </h3>
+              <p class="text-[11px] font-bold text-amber-700 uppercase tracking-wider">Romans 8:35&ndash;39 &bull; Dr. Jerry Grubbs</p>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Exploring freedom in the Holy Spirit: living beyond condemnation and embracing our secure identity as children of God.
+              </p>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <a href="https://www.youtube.com/watch?v=1A3TwKlP0Mc" target="_blank" rel="noopener" class="text-xs font-bold text-navy-900 hover:text-amber-700 flex items-center gap-1 pt-3 border-t border-slate-200">
+              <span>Watch Service</span> &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What to Expect Online: 4-Step Guest Guide -->
+  <section class="py-16 sm:py-20 bg-parchment/60 border-t border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-amber-700">First-Time Online Guests</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">What to Expect During the Broadcast</h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          Whether you are joining us for the first time or worship every week from afar, here is how you can engage fully with our Sunday gathering.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div class="size-12 rounded-xl bg-amber-500/10 text-amber-700 flex items-center justify-center font-serif font-bold text-lg">01</div>
+          <h3 class="font-serif font-bold text-lg text-navy-900">10:25 AM Prelude</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            The broadcast begins 5 minutes before service with pre-service music and live chat greetings in the virtual foyer.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div class="size-12 rounded-xl bg-amber-500/10 text-amber-700 flex items-center justify-center font-serif font-bold text-lg">02</div>
+          <h3 class="font-serif font-bold text-lg text-navy-900">Inspiring Praise</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Worship through beloved hymns and modern praise songs led by Worship Pastor Rev. Dr. Lisa Moore and choir.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div class="size-12 rounded-xl bg-amber-500/10 text-amber-700 flex items-center justify-center font-serif font-bold text-lg">03</div>
+          <h3 class="font-serif font-bold text-lg text-navy-900">Biblical Preaching</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Hear chapter-by-chapter expository messages taught by Interim Pastor Kirk Bookout with life applications.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+          <div class="size-12 rounded-xl bg-amber-500/10 text-amber-700 flex items-center justify-center font-serif font-bold text-lg">04</div>
+          <h3 class="font-serif font-bold text-lg text-navy-900">Live Intercession</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Submit your prayer requests during or after the stream to be lifted up by Associate Pastor Rev. Becky Fauntleroy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Worship Companion Toolkit Section -->
+  <section class="py-14 bg-white border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="rounded-3xl bg-linen border border-slate-200 p-8 sm:p-10 shadow-sm flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="space-y-3 text-center md:text-left">
+          <span class="text-xs font-bold uppercase tracking-widest text-amber-700">Worship From Home Companion</span>
+          <h3 class="font-serif font-bold text-2xl sm:text-3xl text-navy-900">Stay Equipped Every Sunday</h3>
+          <p class="text-slate-600 text-xs sm:text-sm max-w-xl leading-relaxed">
+            Follow along with the order of worship, read the weekly scripture passages, or submit your prayer requests directly to our pastoral team.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-4 flex-shrink-0">
+          <a href="prayer.html" class="px-5 py-3 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs shadow transition-colors flex items-center gap-2">
+            <span class="material-symbols-outlined text-base">favorite</span> Submit Prayer Need
+          </a>
+          <a href="contact.html" class="px-5 py-3 rounded-lg bg-white border border-slate-200 hover:bg-slate-50 text-navy-900 font-semibold text-xs transition-colors flex items-center gap-2">
+            <span class="material-symbols-outlined text-base">mail</span> Contact Church Office
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- In-Person Sanctuary Invitation -->
+  <section class="py-16 sm:py-20 bg-parchment/60 border-t border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-5 grid grid-cols-12 gap-4 items-center">
+          <!-- Sanctuary Cross Card (Vertical, 5 cols) -->
+          <div class="col-span-5 relative rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 aspect-[4/5] group bg-navy-950">
+            <img src="assets/images/cross-straighhted-cropped-jjpg-high-2hjh9n.jpg" alt="Sanctuary Wooden Cross" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-navy-950/75 via-transparent to-transparent pointer-events-none"></div>
+            <span class="absolute bottom-2.5 left-2.5 px-2 py-0.5 rounded-md bg-navy-950/85 backdrop-blur-sm text-white text-[10px] font-semibold flex items-center gap-1 shadow-sm">
+              <span class="size-1.5 rounded-full bg-amber-400"></span> Sanctuary Cross
+            </span>
+          </div>
+
+          <!-- Church Building & Campus Info (7 cols) -->
+          <div class="col-span-7 space-y-3">
+            <div class="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 aspect-[16/10] group bg-navy-950">
+              <img src="assets/images/picture-of-church-edited-without-logo-and-name-copy-hig.jpg" alt="Chesterfield Sanctuary Exterior" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" style="object-position: center 82%;"/>
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-950/75 via-transparent to-transparent pointer-events-none"></div>
+              <span class="absolute bottom-2.5 left-2.5 px-2 py-0.5 rounded-md bg-navy-950/85 backdrop-blur-sm text-white text-[10px] font-semibold flex items-center gap-1 shadow-sm">
+                <span class="size-1.5 rounded-full bg-amber-400"></span> 123 Linden Lane
+              </span>
+            </div>
+
+            <!-- Warm Campus Tag -->
+            <div class="p-3 rounded-xl bg-white border border-slate-200/90 shadow-sm flex items-center gap-2.5 text-xs text-navy-950">
+              <span class="material-symbols-outlined text-amber-600 text-lg flex-shrink-0">church</span>
+              <div class="leading-tight">
+                <p class="font-serif font-bold text-navy-900">Chesterfield Sanctuary</p>
+                <p class="text-[11px] text-slate-500">Corner of Main &amp; Linden</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-7 space-y-4">
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Worship With Us In Person</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">A Warm Seat Waiting for You</h2>
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+            While we cherish our online streaming community, nothing replaces the blessing of gathering in God's presence as a church family. Experience the warmth of our greeting team, hear the choir live, and participate in community communion.
+          </p>
+          <div class="space-y-1 text-xs text-slate-700 font-semibold pt-1">
+            <p>&bull; 9:30 AM &mdash; Sunday Bible Study (All Ages)</p>
+            <p>&bull; 10:30 AM &mdash; Sunday Morning Worship &amp; Discovery Kids</p>
+            <p>&bull; 123 Linden Lane, Chesterfield, IN 46017</p>
+          </div>
+          <div class="pt-2 flex flex-wrap gap-4">
+            <a href="contact.html" class="px-6 py-3 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs transition-colors shadow">
+              Plan Your Visit &rarr;
+            </a>
+            <a href="about.html" class="px-6 py-3 rounded-lg bg-white border border-slate-200 hover:bg-slate-50 text-navy-900 font-semibold text-xs transition-colors">
+              Our Beliefs &amp; Heritage
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-950 text-slate-400 py-10 border-t border-navy-900 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500">
+      <p>&copy; 2026 Chesterfield Community Church of God. 123 Linden Lane, Chesterfield, IN 46017</p>
+      <div class="flex items-center gap-4">
+        <a href="index.html" class="hover:text-amber-400">Home</a>
+        <a href="about.html" class="hover:text-amber-400">About</a>
+        <a href="team.html" class="hover:text-amber-400">Team</a>
+        <a href="contact.html" class="hover:text-amber-400">Contact</a>
+        <a href="https://www.facebook.com/chesterfieldcommunitychog" target="_blank" rel="noopener noreferrer" class="hover:text-[#1877F2] flex items-center gap-1 text-slate-400" title="Visit our Facebook Page">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    const shareBtn = document.getElementById('share-service-btn');
+    const shareToast = document.getElementById('share-toast');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', () => {
+        const liveBtn = document.querySelector('[data-watch-live="true"]');
+        const url = (liveBtn && liveBtn.href) ? liveBtn.href : window.location.origin + '/watch-live';
+        navigator.clipboard.writeText(url).then(() => {
+          shareToast.classList.remove('hidden');
+          setTimeout(() => {
+            shareToast.classList.add('hidden');
+          }, 5000);
+        });
+      });
+    }
+  </script>
+  <script src="assets/js/live-sync.js"></script>
+</body>
+</html>

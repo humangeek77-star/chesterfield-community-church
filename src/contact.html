@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us &amp; Directions | Chesterfield Community Church of God</title>
+  <meta name="description" content="Get directions, service times, office hours, and contact details for Chesterfield Community Church of God in Chesterfield, Indiana."/>
+  
+  <!-- Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 800: '#1e293b', 900: '#0f172a', 950: '#090d16' },
+            amber: { 500: '#f59e0b', 600: '#d97706', 700: '#b45309' },
+            sage: { 600: '#4d6b53', 700: '#38503d' },
+            linen: '#fbf9f5',
+            parchment: '#f4efe6'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-linen text-slate-800 font-sans antialiased flex flex-col min-h-screen overflow-x-hidden">
+
+  <!-- Header -->
+  <!-- Primary Navigation -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all">
+    <div class="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 py-3 flex items-center justify-between gap-4">
+      <!-- Logo & Brand: Authentic Flame Icon + Crisp Church Name -->
+      <a href="index.html" class="flex items-center gap-3.5 group flex-shrink-0">
+        <img src="assets/images/flame-logo.png" alt="Chesterfield Community Church of God Flame Logo" class="h-11 sm:h-12 w-auto object-contain flex-shrink-0 drop-shadow-sm"/>
+        <div class="flex flex-col justify-center">
+          <span class="font-serif text-lg sm:text-xl font-bold text-navy-950 leading-tight group-hover:text-amber-700 transition-colors tracking-tight">Chesterfield Community</span>
+          <span class="text-[11px] sm:text-xs font-bold uppercase tracking-widest text-slate-500">Church of God</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links: Evenly Spaced & Clean -->
+      <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
+        <a href="index.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Home</a>
+        <a href="about.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">About Us</a>
+        <a href="team.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Our Team</a>
+        <a href="ministries.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Ministries</a>
+        <a href="missions.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Outreach & Missions</a>
+        <a href="sermons.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Worship Online</a>
+        <a href="prayer.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Prayer Requests</a>
+        <a href="contact.html" class="px-3.5 py-2 text-sm font-bold text-amber-700 bg-amber-50 rounded-lg whitespace-nowrap">Contact</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="hidden lg:flex items-center flex-shrink-0">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-amber-600 hover:bg-amber-500 rounded-lg shadow-sm hover:shadow transition-all whitespace-nowrap" title="Watch Chesterfield Community Church of God Live / Latest Service on YouTube">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Live
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 focus:outline-none" aria-label="Toggle navigation menu">
+        <span class="material-symbols-outlined text-2xl">menu</span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-5 space-y-2">
+      <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Home</a>
+      <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">About Us</a>
+      <a href="team.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Our Team</a>
+      <a href="ministries.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Ministries</a>
+      <a href="missions.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Outreach & Missions</a>
+      <a href="sermons.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Worship Online</a>
+      <a href="prayer.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Prayer Requests</a>
+      <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-semibold bg-amber-50 text-amber-800">Contact</a>
+      <div class="pt-2">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn flex items-center justify-center gap-2 w-full py-2.5 rounded-lg bg-amber-600 text-white font-bold text-xs uppercase tracking-wider shadow">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Live on YouTube
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="bg-navy-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="text-xs uppercase font-bold tracking-widest text-amber-400 block mb-2">Location &bull; Hours &bull; Get in Touch</span>
+      <h1 class="text-4xl sm:text-5xl font-serif font-bold text-white mb-4">Contact &amp; Visit Us</h1>
+      <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+        We would love to welcome you in person. Find our campus location, church office schedule, or send us a message below.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact & Location Grid -->
+  <section class="py-16 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Left: Church Info Cards -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="rounded-2xl overflow-hidden shadow-sm border border-slate-200 bg-slate-950">
+            <img src="assets/images/contact-us-modern.png" alt="Contact Us - Chesterfield Community Church of God" class="w-full h-auto object-cover"/>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-linen border border-slate-200 space-y-4">
+            <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Sanctuary Address</span>
+            <div class="rounded-xl overflow-hidden mb-3 border border-slate-200 shadow-inner bg-slate-100">
+              <img src="assets/images/picture-of-church-edited-without-logo-and-name-copy-hig.jpg" alt="Chesterfield Community Church of God Exterior" class="w-full h-auto block"/>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-amber-600 text-2xl mt-0.5">location_on</span>
+              <div>
+                <h3 class="font-serif font-bold text-lg text-navy-900">Chesterfield Community Church of God</h3>
+                <p class="text-slate-600 text-sm">123 Linden Lane</p>
+                <p class="text-slate-600 text-sm">Chesterfield, IN 46017</p>
+                <p class="text-xs text-slate-500 mt-1 italic">Corner of Main Street and Linden Lane</p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Chesterfield+Community+Church+of+God,+123+Linden+Ln,+Chesterfield,+IN+46017" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 hover:underline mt-2">
+                  <span class="material-symbols-outlined text-sm">directions</span>
+                  <span>Get Directions in Google Maps</span> &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-linen border border-slate-200 space-y-4">
+            <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Telephone &amp; Email</span>
+            <div class="space-y-3 text-sm">
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-amber-600 text-xl">phone</span>
+                <div>
+                  <p class="text-xs text-slate-500">Phone</p>
+                  <a href="tel:7653787685" class="font-bold text-navy-900 hover:text-amber-700">(765) 378-7685</a>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-amber-600 text-xl">mail</span>
+                <div>
+                  <p class="text-xs text-slate-500">General Email</p>
+                  <a href="mailto:chesterfieldcommunitycog@gmail.com" class="font-bold text-navy-900 hover:text-amber-700">chesterfieldcommunitycog@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Office Staff & Hours -->
+          <div class="p-6 rounded-2xl bg-linen border border-slate-200 space-y-4">
+            <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Church Office &amp; Administration</span>
+            <div class="flex items-center gap-3 pb-3 border-b border-slate-200/80">
+              <img src="assets/images/image-high-ipdk3h.png" alt="Shelly Siek, Office Administrator" class="size-14 rounded-xl object-cover object-top border border-slate-200 flex-shrink-0"/>
+              <div>
+                <h4 class="font-serif font-bold text-sm text-navy-900">Shelly Siek</h4>
+                <p class="text-[11px] text-amber-700 font-semibold uppercase">Office Administrator</p>
+                <p class="text-[11px] text-slate-500">Managing bulletins, member communications, and visitor inquiries.</p>
+              </div>
+            </div>
+
+            <ul class="text-xs space-y-2 text-slate-700">
+              <li class="flex justify-between border-b border-slate-200/60 pb-1">
+                <span>Monday &ndash; Wednesday:</span>
+                <span class="font-bold text-navy-900">9:00 AM &ndash; 1:00 PM</span>
+              </li>
+              <li class="flex justify-between border-b border-slate-200/60 pb-1">
+                <span>Thursday:</span>
+                <span class="font-bold text-navy-900">9:00 AM &ndash; 12:00 PM</span>
+              </li>
+              <li class="flex justify-between text-slate-500">
+                <span>Friday &ndash; Saturday:</span>
+                <span>Closed</span>
+              </li>
+              <li class="flex justify-between text-amber-800 font-semibold pt-1">
+                <span>Sunday Worship:</span>
+                <span>9:30 AM Study &bull; 10:30 AM Worship</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right: Message Form -->
+        <div class="lg:col-span-7">
+          <div class="bg-linen p-8 rounded-2xl border border-slate-200/80 shadow-md">
+            <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Direct Inquiries</span>
+            <h3 class="font-serif font-bold text-2xl text-navy-900 mb-6 mt-1">Send a Message to the Church Office</h3>
+
+            <form id="contact-form" class="space-y-5">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="contact-name" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Your Name *</label>
+                  <input type="text" id="contact-name" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white" placeholder="Jane Doe"/>
+                </div>
+
+                <div>
+                  <label for="contact-email" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Email Address *</label>
+                  <input type="email" id="contact-email" required class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white" placeholder="jane@example.com"/>
+                </div>
+              </div>
+
+              <div>
+                <label for="contact-phone" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Phone Number (Optional)</label>
+                <input type="tel" id="contact-phone" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white" placeholder="(765) 000-0000"/>
+              </div>
+
+              <div>
+                <label for="contact-subject" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Inquiry Topic</label>
+                <select id="contact-subject" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white">
+                  <option value="general">General Question</option>
+                  <option value="pastoral">Pastoral Care / Counseling</option>
+                  <option value="kids">Children's Ministry &amp; Nursery</option>
+                  <option value="foodpantry">Food Pantry &amp; Benevolence</option>
+                  <option value="volunteer">Volunteering / Serving</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="contact-message" class="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">Message *</label>
+                <textarea id="contact-message" required rows="5" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm bg-white" placeholder="How may our church family serve or assist you?"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-3 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-lg text-sm transition-colors shadow">
+                Send Message
+              </button>
+
+              <div id="contact-toast" class="hidden p-4 rounded-lg bg-green-50 border border-green-200 text-green-800 text-xs">
+                &check; Thank you for reaching out! Your message has been sent to our office administrator, Shelly Siek. We will be in touch soon.
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Instant Church Directory Section -->
+  <section class="py-16 sm:py-20 bg-parchment/60 border-t border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-5 space-y-4">
+          <img src="assets/images/instand-church-directory-logo-high-fmucvk.png" alt="Instant Church Directory" class="h-12 w-auto object-contain"/>
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-700 block">Member Access &bull; Mobile &amp; Web</span>
+          <h2 class="text-3xl font-serif font-bold text-navy-900">Instant Church Directory</h2>
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+            To access the Chesterfield Community Church of God Instant Church Directory, you must have your picture and contact information already recorded in our directory database.
+          </p>
+          <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-sm text-xs text-slate-700 space-y-2">
+            <p class="font-bold text-navy-900 flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-amber-600 text-sm">photo_camera</span> Directory Photo Sessions:
+            </p>
+            <p>Pictures and member information are taken regularly, as announced, directly following Sunday Morning Worship in the Adult Classroom.</p>
+          </div>
+          <div class="pt-2 flex flex-wrap gap-4">
+            <a href="https://www.instantchurchdirectory.com/" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs transition-colors shadow">
+              Open Directory Portal &rarr;
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <a href="https://www.instantchurchdirectory.com/" target="_blank" rel="noopener noreferrer" class="group rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-slate-200 hover:border-amber-400 bg-white transition-all duration-300 block" title="Open Instant Church Directory Portal">
+            <div class="overflow-hidden">
+              <img src="assets/images/image-high-mqs1jq.png" alt="Instant Church Directory Member Sign-In Portal" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <p class="p-3 text-xs font-semibold text-center text-slate-700 bg-slate-50 border-t border-slate-200 group-hover:text-amber-700 group-hover:bg-amber-50/60 transition-colors flex items-center justify-center gap-1.5">
+              Online Member Portal &rarr;
+            </p>
+          </a>
+          <a href="https://www.facebook.com/chesterfieldcommunitychog" target="_blank" rel="noopener noreferrer" class="group rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-slate-200 hover:border-blue-500 bg-white transition-all duration-300 block" title="Follow Chesterfield Community Church of God on Facebook">
+            <div class="overflow-hidden">
+              <img src="assets/images/screenshot_20210411-214629.png" alt="Follow Chesterfield Community Church of God on Facebook" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <p class="p-3 text-xs font-semibold text-center text-slate-700 bg-slate-50 border-t border-slate-200 group-hover:text-[#1877F2] group-hover:bg-blue-50/60 transition-colors flex items-center justify-center gap-2">
+              <svg class="w-4 h-4 text-[#1877F2] fill-current shrink-0" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <span>Follow Us on Facebook &rarr;</span>
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-950 text-slate-400 py-10 border-t border-navy-900 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500">
+      <p>&copy; 2026 Chesterfield Community Church of God. 123 Linden Lane, Chesterfield, IN 46017</p>
+      <div class="flex items-center gap-4">
+        <a href="index.html" class="hover:text-amber-400">Home</a>
+        <a href="about.html" class="hover:text-amber-400">About</a>
+        <a href="team.html" class="hover:text-amber-400">Team</a>
+        <a href="prayer.html" class="hover:text-amber-400">Prayer</a>
+        <a href="https://www.facebook.com/chesterfieldcommunitychog" target="_blank" rel="noopener noreferrer" class="hover:text-[#1877F2] flex items-center gap-1 text-slate-400" title="Visit our Facebook Page">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    const contactForm = document.getElementById('contact-form');
+    const contactToast = document.getElementById('contact-toast');
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      contactToast.classList.remove('hidden');
+      contactForm.reset();
+      setTimeout(() => {
+        contactToast.classList.add('hidden');
+      }, 7000);
+    });
+  </script>
+  <script src="assets/js/live-sync.js"></script>
+</body>
+</html>

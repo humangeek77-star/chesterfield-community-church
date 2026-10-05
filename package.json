@@ -1,0 +1,8 @@
+{
+  "name": "chesterfield-site-migration",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper/scraper.js"
+  }
+}

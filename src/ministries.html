@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ministries &amp; Discipleship | Chesterfield Community Church of God</title>
+  <meta name="description" content="Explore children's ministry, adult Bible studies, men's and women's fellowship groups at Chesterfield Community Church of God."/>
+  
+  <!-- Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 800: '#1e293b', 900: '#0f172a', 950: '#090d16' },
+            amber: { 500: '#f59e0b', 600: '#d97706', 700: '#b45309' },
+            sage: { 600: '#4d6b53', 700: '#38503d' },
+            linen: '#fbf9f5',
+            parchment: '#f4efe6'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-linen text-slate-800 font-sans antialiased flex flex-col min-h-screen overflow-x-hidden">
+
+  <!-- Header -->
+  <!-- Primary Navigation -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all">
+    <div class="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 py-3 flex items-center justify-between gap-4">
+      <!-- Logo & Brand: Authentic Flame Icon + Crisp Church Name -->
+      <a href="index.html" class="flex items-center gap-3.5 group flex-shrink-0">
+        <img src="assets/images/flame-logo.png" alt="Chesterfield Community Church of God Flame Logo" class="h-11 sm:h-12 w-auto object-contain flex-shrink-0 drop-shadow-sm"/>
+        <div class="flex flex-col justify-center">
+          <span class="font-serif text-lg sm:text-xl font-bold text-navy-950 leading-tight group-hover:text-amber-700 transition-colors tracking-tight">Chesterfield Community</span>
+          <span class="text-[11px] sm:text-xs font-bold uppercase tracking-widest text-slate-500">Church of God</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links: Evenly Spaced & Clean -->
+      <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
+        <a href="index.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Home</a>
+        <a href="about.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">About Us</a>
+        <a href="team.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Our Team</a>
+        <a href="ministries.html" class="px-3.5 py-2 text-sm font-bold text-amber-700 bg-amber-50 rounded-lg whitespace-nowrap">Ministries</a>
+        <a href="missions.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Outreach & Missions</a>
+        <a href="sermons.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Worship Online</a>
+        <a href="prayer.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Prayer Requests</a>
+        <a href="contact.html" class="px-3.5 py-2 text-sm font-semibold text-slate-700 hover:text-navy-950 hover:bg-slate-100 rounded-lg whitespace-nowrap transition-colors">Contact</a>
+      </nav>
+
+      <!-- Action Button -->
+      <div class="hidden lg:flex items-center flex-shrink-0">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-white bg-amber-600 hover:bg-amber-500 rounded-lg shadow-sm hover:shadow transition-all whitespace-nowrap" title="Watch Chesterfield Community Church of God Live / Latest Service on YouTube">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Live
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 focus:outline-none" aria-label="Toggle navigation menu">
+        <span class="material-symbols-outlined text-2xl">menu</span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-5 space-y-2">
+      <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Home</a>
+      <a href="about.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">About Us</a>
+      <a href="team.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Our Team</a>
+      <a href="ministries.html" class="block px-3 py-2 rounded-md text-base font-semibold bg-amber-50 text-amber-800">Ministries</a>
+      <a href="missions.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Outreach & Missions</a>
+      <a href="sermons.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Worship Online</a>
+      <a href="prayer.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Prayer Requests</a>
+      <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Contact</a>
+      <div class="pt-2">
+        <a href="/watch-live" data-watch-live="true" target="_blank" rel="noopener" class="watch-live-btn flex items-center justify-center gap-2 w-full py-2.5 rounded-lg bg-amber-600 text-white font-bold text-xs uppercase tracking-wider shadow">
+          <span class="material-symbols-outlined text-base">play_circle</span> Watch Live on YouTube
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="bg-navy-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="text-xs uppercase font-bold tracking-widest text-amber-400 block mb-2">Connect &bull; Disciple &bull; Serve</span>
+      <h1 class="text-4xl sm:text-5xl font-serif font-bold text-white mb-4">Church Ministries &amp; Groups</h1>
+      <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+        Discover vibrant places to connect with others, study God's Word, and grow together at every age and stage of life.
+      </p>
+    </div>
+  </section>
+
+  <!-- Children & Youth Section -->
+  <section id="kids" class="py-16 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-5 order-2 lg:order-1">
+          <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-200 bg-slate-100">
+            <img src="assets/images/discovery-kids-small-high.jpg" alt="Discovery Kids Logo and Ministry" class="w-full h-auto object-cover"/>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 order-1 lg:order-2 space-y-6">
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Next Generation Discipleship</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">Discovery Kids &amp; Staffed Nursery</h2>
+          <p class="text-slate-600 leading-relaxed text-base">
+            We love children! Our heart is to partner with families to help kids know, love, and follow Jesus Christ. Every Sunday morning during our 10:30 AM worship service, we offer safe, age-appropriate environments led by trained and background-checked volunteers.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl border border-slate-200 bg-linen flex items-center gap-4">
+              <img src="assets/images/amy-greenwalt.jpg" alt="Amy Greenwalt, Nursery Attendant" class="size-16 rounded-xl object-cover object-top border border-slate-200 shadow-sm flex-shrink-0"/>
+              <div>
+                <h3 class="font-serif font-bold text-base text-navy-900">Staffed Nursery</h3>
+                <p class="text-xs text-slate-600 mt-1">Loving care for infants and toddlers in a clean, quiet, and secure nursery room with Amy Greenwalt.</p>
+              </div>
+            </div>
+            <div class="p-4 rounded-xl border border-slate-200 bg-linen flex items-center gap-4">
+              <img src="assets/images/susan-blower.jpg" alt="Susan Blower, Children's Director" class="size-16 rounded-xl object-cover object-top border border-slate-200 shadow-sm flex-shrink-0"/>
+              <div>
+                <h3 class="font-serif font-bold text-base text-navy-900">Discovery Kids Class</h3>
+                <p class="text-xs text-slate-600 mt-1">Engaging Bible lessons, interactive crafts, and worship led by Children's Director Susan Blower.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Adult Discipleship & Bible Studies -->
+  <section id="studies" class="py-16 sm:py-20 bg-parchment/60 border-y border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Growing in God's Word</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">Bible Studies &amp; Small Groups</h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          Scripture comes alive when we study together, share with one another in curiosity, and grow in God's wisdom.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Sunday School -->
+        <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <div class="h-48 overflow-hidden bg-slate-100">
+              <img src="assets/images/sunday-morning-bible-study-banner.jpg" alt="Sunday Morning Small Group Bible Study" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <div class="p-6 space-y-3">
+              <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Sunday Mornings</span>
+              <h3 class="font-serif font-bold text-xl text-navy-900">9:30 AM Small Group Study</h3>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Prior to Sunday morning worship, adults and students gather for in-depth, chapter-by-chapter biblical exploration with open discussion and prayer.
+              </p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <span class="text-xs font-semibold text-slate-500 pt-3 border-t border-slate-100 flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm text-amber-600">schedule</span> Sundays at 9:30 AM
+            </span>
+          </div>
+        </div>
+
+        <!-- Wednesday Bible Study -->
+        <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <div class="h-48 overflow-hidden bg-slate-100">
+              <img src="assets/images/fall-wednesday-bible-study-high-0ef5x2.jpg" alt="Wednesday Evening Bible Study" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <div class="p-6 space-y-3">
+              <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Midweek Gathering</span>
+              <h3 class="font-serif font-bold text-xl text-navy-900">Wednesday Evening Study</h3>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Seasonal Fall &amp; Spring Wednesday evening studies designed to refresh your spirit in the middle of the week through scripture and candid fellowship.
+              </p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <span class="text-xs font-semibold text-slate-500 pt-3 border-t border-slate-100 flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm text-amber-600">schedule</span> Wednesday Evenings
+            </span>
+          </div>
+        </div>
+
+        <!-- Ladies Bible Study -->
+        <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <div class="h-48 overflow-hidden bg-slate-100">
+              <img src="assets/images/ladies-bible-study-fall-2026-high-98g773.jpg" alt="Thursday Ladies Bible Study" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <div class="p-6 space-y-3">
+              <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Women's Ministry</span>
+              <h3 class="font-serif font-bold text-xl text-navy-900">Thursday Ladies Bible Study</h3>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                A loving circle of women who meet for topical Bible studies, mutual encouragement, shared prayer requests, and heartfelt support.
+              </p>
+            </div>
+          </div>
+          <div class="px-6 pb-6 pt-2">
+            <span class="text-xs font-semibold text-slate-500 pt-3 border-t border-slate-100 flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm text-amber-600">schedule</span> Thursdays
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fellowship & Community Groups -->
+  <section class="py-16 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Fellowship &amp; Community</span>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">Connecting Through Fellowship</h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          Christian friendship is one of God's sweetest gifts. Join in any of our regular fellowship circles!
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Monthly Carry-In -->
+        <div class="bg-linen rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <div class="h-44 overflow-hidden bg-slate-200">
+              <img src="assets/images/carry-in-dinner-first-sunday-of-every-month-copy-standa.jpg" alt="First Sunday Carry-In Dinner" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <div class="p-5 space-y-2">
+              <h3 class="font-serif font-bold text-lg text-navy-900">Monthly Carry-In Dinners</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Held the first Sunday of every month directly following morning worship. Bring a dish to share and invite a friend!
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <span class="text-xs font-bold text-amber-700 block pt-2 border-t border-slate-200/80">1st Sunday Monthly</span>
+          </div>
+        </div>
+
+        <!-- Men's Breakfast -->
+        <div class="bg-linen rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <div class="h-44 overflow-hidden bg-slate-200">
+              <img src="assets/images/mensbreakfastcopy.jpg" alt="Men's Breakfast Fellowship" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <div class="p-5 space-y-2">
+              <h3 class="font-serif font-bold text-lg text-navy-900">Men's Breakfast</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Wholesome breakfast food, devotional insights, and great brotherly conversation for all men in the church family.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <span class="text-xs font-bold text-amber-700 block pt-2 border-t border-slate-200/80">Scheduled Saturdays</span>
+          </div>
+        </div>
+
+        <!-- Nifty Needles -->
+        <div class="bg-linen rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <div class="h-44 overflow-hidden bg-slate-200">
+              <img src="assets/images/9-7-25-nifty-needles-high-hxmdda.jpg" alt="Nifty Needles Craft and Ministry" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <div class="p-5 space-y-2">
+              <h3 class="font-serif font-bold text-lg text-navy-900">Nifty Needles</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Handcrafting quilts, blankets, and hats with prayer for sick, hospitalized, and shut-in community members.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <span class="text-xs font-bold text-amber-700 block pt-2 border-t border-slate-200/80">Creative Prayer Circle</span>
+          </div>
+        </div>
+
+        <!-- All-Church Activities Insert -->
+        <div class="bg-linen rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+          <div>
+            <div class="h-44 overflow-hidden bg-slate-200">
+              <img src="assets/images/2026-activities-insert-one-page-copy-standard.jpg" alt="All-Church Fellowship Opportunities & Activities" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+            </div>
+            <div class="p-5 space-y-2">
+              <h3 class="font-serif font-bold text-lg text-navy-900">Third Thursday &amp; Events</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Games, light lunches, fellowship, and great laughs designed to foster friendships across our entire church congregation.
+              </p>
+            </div>
+          </div>
+          <div class="px-5 pb-5">
+            <span class="text-xs font-bold text-amber-700 block pt-2 border-t border-slate-200/80">3rd Thursday Monthly</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Volunteer Schedules & Serving Opportunities -->
+  <section class="py-16 sm:py-20 bg-parchment/60 border-t border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-5">
+          <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-200 bg-white">
+            <img src="assets/images/image-high-ddpt41.png" alt="Ministry Volunteer Schedules" class="w-full h-auto object-cover"/>
+          </div>
+        </div>
+        <div class="lg:col-span-7 space-y-5">
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Heartbeat of Our Church</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-navy-900">Ministry Volunteer Teams</h2>
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+            Volunteers are key to creating a welcoming and effective ministry. Those who serve are the heartbeat of our church. From kids' ministry to usher teams, greeters, hospitality, outreach, and pastoral care, we thrive when people step up to serve.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-xl border border-slate-200 bg-white shadow-sm">
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-700">Sunday Service</span>
+              <h3 class="font-serif font-bold text-base text-navy-900 mt-1">Ushers Team</h3>
+              <p class="text-xs text-slate-600 mt-1"><strong>Coordinator: Chet Mullins</strong>. Welcoming worshippers, distributing bulletins, and assisting with offering collections.</p>
+            </div>
+            <div class="p-4 rounded-xl border border-slate-200 bg-white shadow-sm">
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-700">Hospitality</span>
+              <h3 class="font-serif font-bold text-base text-navy-900 mt-1">Welcome &amp; Greeters</h3>
+              <p class="text-xs text-slate-600 mt-1">Greeting every family with warm Christian kindness at our front doors and sanctuary foyer.</p>
+            </div>
+          </div>
+          <div class="pt-2">
+            <a href="contact.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-semibold text-xs transition-colors shadow">
+              <span>Volunteer to Serve</span> &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-navy-950 text-slate-400 py-10 border-t border-navy-900 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500">
+      <p>&copy; 2026 Chesterfield Community Church of God. 123 Linden Lane, Chesterfield, IN 46017</p>
+      <div class="flex items-center gap-4">
+        <a href="index.html" class="hover:text-amber-400">Home</a>
+        <a href="about.html" class="hover:text-amber-400">About</a>
+        <a href="team.html" class="hover:text-amber-400">Team</a>
+        <a href="contact.html" class="hover:text-amber-400">Contact</a>
+        <a href="https://www.facebook.com/chesterfieldcommunitychog" target="_blank" rel="noopener noreferrer" class="hover:text-[#1877F2] flex items-center gap-1 text-slate-400" title="Visit our Facebook Page">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+  <script src="assets/js/live-sync.js"></script>
+</body>
+</html>
