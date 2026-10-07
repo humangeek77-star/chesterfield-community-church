@@ -274,8 +274,24 @@
             <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
               We see rural Honduran communities as a place to truly belong. Partnering with local leaders to build clean water pipelines, provide medical access, and cultivate discipleship.
             </p>
-            <div class="pt-2">
-              <img src="assets/images/heart-to-honduras-video-picture-standard-h1k5p4.png" alt="Watch Heart to Honduras Video" class="h-14 w-auto rounded border border-slate-200 shadow-sm cursor-pointer hover:opacity-90 transition-opacity"/>
+            <div class="pt-2 flex flex-wrap items-center gap-3">
+              <a href="https://www.hth.org/our-story" target="_blank" rel="noopener noreferrer" class="group/hth inline-flex items-center gap-2 p-1.5 pr-3 rounded-xl border border-slate-200 bg-white shadow-sm hover:border-amber-500 hover:shadow transition-all" title="Click to watch Heart to Honduras Video &amp; Story">
+                <div class="relative overflow-hidden rounded-lg h-12 w-20 bg-slate-900">
+                  <img src="assets/images/heart-to-honduras-video-picture-standard-h1k5p4.png" alt="Heart to Honduras Video" class="h-full w-full object-cover group-hover/hth:scale-105 transition-transform duration-300"/>
+                  <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+                    <div class="w-6 h-6 rounded-full bg-white/95 text-amber-700 flex items-center justify-center shadow">
+                      <svg class="w-3.5 h-3.5 fill-current ml-0.5" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-left">
+                  <span class="block text-xs font-bold text-navy-950 group-hover/hth:text-amber-700 transition-colors">Watch HTH Story</span>
+                  <span class="block text-[11px] text-slate-500">Official Video &rarr;</span>
+                </div>
+              </a>
+              <a href="https://www.hth.org" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-slate-600 hover:text-amber-700 transition-colors">
+                Visit hth.org &nearr;
+              </a>
             </div>
           </div>
         </div>
@@ -283,10 +299,10 @@
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Children of Promise -->
-        <div class="bg-linen rounded-2xl overflow-hidden border border-slate-200/80 shadow-sm flex flex-col group hover:shadow-md transition-shadow">
-          <div class="h-48 overflow-hidden bg-white p-4 flex items-center justify-center">
-            <img src="assets/images/children-of-promise-standard-oo996t.png" alt="Children of Promise" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500"/>
-          </div>
+        <div class="bg-linen rounded-2xl border border-slate-200/80 shadow-sm flex flex-col group hover:shadow-md transition-shadow">
+          <a href="https://www.childrenofpromise.global/about-us" target="_blank" rel="noopener noreferrer" class="h-48 bg-white p-4 flex items-center justify-center border-b border-slate-100 group/cop" title="Visit Children of Promise">
+            <img src="assets/images/children-of-promise-standard-oo996t.png" alt="Children of Promise" class="max-h-full max-w-full object-contain group-hover/cop:scale-105 transition-transform duration-500"/>
+          </a>
           <div class="p-6 flex-1 flex flex-col justify-between space-y-3">
             <div>
               <span class="text-xs font-bold uppercase tracking-wider text-amber-700">Child Sponsorship</span>
@@ -295,15 +311,20 @@
                 Child sponsorship ministry of the Church of God transforming lives across 30+ nations through nutrition, medical care, and Christian education.
               </p>
             </div>
-            <p class="text-xs font-semibold text-slate-500 pt-2 border-t border-slate-200">Global Child Advocacy</p>
+            <div class="pt-2 border-t border-slate-200 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500">Global Child Advocacy</span>
+              <a href="https://www.childrenofpromise.global/about-us" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-amber-700 hover:text-amber-800 transition-colors">
+                Learn More &rarr;
+              </a>
+            </div>
           </div>
         </div>
 
         <!-- Voice of the Martyrs -->
-        <div class="bg-linen rounded-2xl overflow-hidden border border-slate-200/80 shadow-sm flex flex-col group hover:shadow-md transition-shadow">
-          <div class="h-48 overflow-hidden bg-white p-4 flex items-center justify-center">
-            <img src="assets/images/voice-of-the-martyrs-standard-a8xvik.png" alt="Voice of the Martyrs" class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500"/>
-          </div>
+        <div class="bg-linen rounded-2xl border border-slate-200/80 shadow-sm flex flex-col group hover:shadow-md transition-shadow">
+          <a href="https://www.persecution.com/about/" target="_blank" rel="noopener noreferrer" class="h-48 bg-white p-4 flex items-center justify-center border-b border-slate-100 group/vom" title="Visit The Voice of the Martyrs">
+            <img src="assets/images/voice-of-the-martyrs-standard-a8xvik.png" alt="Voice of the Martyrs" class="max-h-full max-w-full object-contain group-hover/vom:scale-105 transition-transform duration-500"/>
+          </a>
           <div class="p-6 flex-1 flex flex-col justify-between space-y-3">
             <div>
               <span class="text-xs font-bold uppercase tracking-wider text-amber-700">Persecuted Church Support</span>
@@ -312,31 +333,119 @@
                 Serving persecuted Christians in hostile regions around the globe with Scripture delivery, shelter, trauma relief, and prayer mobilization.
               </p>
             </div>
-            <p class="text-xs font-semibold text-slate-500 pt-2 border-t border-slate-200">Standing with the Persecuted</p>
+            <div class="pt-2 border-t border-slate-200 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500">Standing with the Persecuted</span>
+              <a href="https://www.persecution.com/about/" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-amber-700 hover:text-amber-800 transition-colors">
+                Learn More &rarr;
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- VOM Video / Slide9 Feature -->
-        <div class="bg-linen rounded-2xl overflow-hidden border border-slate-200/80 shadow-sm flex flex-col group hover:shadow-md transition-shadow">
-          <div class="h-48 overflow-hidden bg-slate-200">
-            <img src="assets/images/the-voice-of-the-martyrs-video-standard-jz53ev.png" alt="Voice of the Martyrs Video &amp; Testimonies" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+        <!-- VOM Video / Global Faith Stories Feature -->
+        <div class="bg-linen rounded-2xl border border-amber-200/80 shadow-sm flex flex-col group hover:shadow-md transition-shadow ring-1 ring-amber-500/10">
+          <!-- Interactive Playable Video Thumbnail -->
+          <div class="relative h-48 bg-slate-900 cursor-pointer overflow-hidden rounded-t-2xl group/video" onclick="openVideoPlayer('https://www.youtube-nocookie.com/embed/R9U0X8ZgU-I?autoplay=1&amp;rel=0', 'Global Faith Stories — The Voice of the Martyrs', 'https://www.persecution.com/about/')" role="button" tabindex="0" aria-label="Play Global Faith Stories - The Voice of the Martyrs Video" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}">
+            <img src="assets/images/the-voice-of-the-martyrs-video-standard-jz53ev.png" alt="Voice of the Martyrs Video &amp; Global Faith Stories" class="w-full h-full object-cover group-hover/video:scale-105 transition-transform duration-500 brightness-95 group-hover/video:brightness-100"/>
+            
+            <!-- Vignette & Hover Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-navy-950/20 to-transparent group-hover/video:from-navy-950/90 transition-colors"></div>
+
+            <!-- Pulsing Play Button Overlay -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-14 h-14 rounded-full bg-amber-600/90 text-white flex items-center justify-center shadow-2xl backdrop-blur-sm group-hover/video:scale-115 group-hover/video:bg-amber-500 transition-all duration-300 ring-4 ring-white/30 group-hover/video:ring-amber-300/60">
+                <svg class="w-7 h-7 fill-current ml-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+            </div>
+
+            <!-- Floating Watch Video Pill Badge -->
+            <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white text-xs font-semibold drop-shadow">
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-navy-950/85 backdrop-blur-sm border border-white/15 text-[11px]">
+                <svg class="w-3.5 h-3.5 fill-amber-400" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                Click to Play Video
+              </span>
+              <span class="text-[11px] text-amber-200 bg-amber-950/80 border border-amber-500/30 px-2 py-0.5 rounded font-mono">▶ Play</span>
+            </div>
           </div>
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-3">
+
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
             <div>
-              <span class="text-xs font-bold uppercase tracking-wider text-amber-700">Multimedia Testimonies</span>
+              <div class="flex items-center justify-between gap-2">
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-700">Multimedia Testimonies</span>
+                <span class="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-800 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping"></span>
+                  Video Feature
+                </span>
+              </div>
               <h3 class="font-serif font-bold text-lg text-navy-900 mt-1">Global Faith Stories</h3>
               <p class="text-xs text-slate-600 leading-relaxed mt-2">
                 Watch inspirational missionary video updates and firsthand reports of God moving powerfully across the nations.
               </p>
+
+              <!-- Action Controls: Play Video & Persecution.com Link -->
+              <div class="mt-4 pt-3 border-t border-slate-200/80 flex items-center gap-2">
+                <button type="button" onclick="openVideoPlayer('https://www.youtube-nocookie.com/embed/R9U0X8ZgU-I?autoplay=1&amp;rel=0', 'Global Faith Stories — The Voice of the Martyrs', 'https://www.persecution.com/about/')" class="flex-1 inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold shadow-sm transition-all transform active:scale-95 group/btn" aria-label="Play Global Faith Stories Video">
+                  <svg class="w-4 h-4 fill-current group-hover/btn:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  <span>Play Video</span>
+                </button>
+                <a href="https://www.persecution.com/about/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-1 px-3 py-2 rounded-xl border border-slate-300 hover:border-amber-600 bg-white hover:bg-amber-50 text-slate-700 hover:text-amber-800 text-xs font-semibold transition-colors" title="Read more at Persecution.com">
+                  <span>About VOM</span>
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                </a>
+              </div>
             </div>
-            <div class="pt-2 border-t border-slate-200">
-              <img src="assets/images/slide9-standard-70ipp7.jpg" alt="Missions Presentation Slide" class="w-full h-auto rounded border border-slate-200 object-cover"/>
+
+            <!-- Slide 9 Presentation Slide Feature -->
+            <div class="pt-3 border-t border-slate-200">
+              <div class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mb-1.5 flex items-center justify-between">
+                <span>Africa Mission Presentation</span>
+                <span class="text-amber-700 font-bold">&bull; Field Update</span>
+              </div>
+              <img src="assets/images/slide9-standard-70ipp7.jpg" alt="Africa Mission Presentation Slide - Walking Alongside the Church in Africa" class="w-full h-auto rounded border border-slate-200 object-cover shadow-sm"/>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Video Player Modal Component -->
+  <div id="video-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4 sm:p-6 transition-all duration-300 opacity-0 pointer-events-none" role="dialog" aria-modal="true" aria-labelledby="video-modal-title">
+    <div class="relative w-full max-w-4xl bg-navy-950 border border-slate-700/80 rounded-2xl shadow-2xl overflow-hidden transform scale-95 transition-transform duration-300" id="video-modal-dialog">
+      <!-- Modal Header -->
+      <div class="px-5 py-4 border-b border-slate-800 flex items-center justify-between bg-navy-900/90">
+        <div class="flex items-center gap-3">
+          <span class="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
+          <div>
+            <h3 id="video-modal-title" class="font-serif font-bold text-white text-base sm:text-lg">Global Faith Stories</h3>
+            <p id="video-modal-subtitle" class="text-xs text-slate-400">The Voice of the Martyrs &bull; Worldwide Missionary Testimonies</p>
+          </div>
+        </div>
+        <button id="close-video-modal" type="button" class="text-slate-400 hover:text-white hover:bg-slate-800 p-2 rounded-xl transition-colors" aria-label="Close video dialog">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Responsive 16:9 Video Embed Player -->
+      <div class="relative w-full bg-black aspect-video">
+        <iframe id="video-iframe" class="w-full h-full" src="" title="Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="px-5 py-3.5 bg-navy-900/90 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400">
+        <span class="text-center sm:text-left">Inspirational updates of God moving powerfully across the nations.</span>
+        <div class="flex items-center gap-2.5 w-full sm:w-auto justify-end">
+          <a id="video-modal-ext-link" href="https://www.persecution.com/about/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-2 bg-amber-600 hover:bg-amber-500 text-white font-semibold rounded-lg shadow transition-colors">
+            <span>Watch More on Persecution.com</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+          <button id="close-video-modal-btn" type="button" class="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white font-semibold rounded-lg transition-colors">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="bg-navy-950 text-slate-400 py-10 border-t border-navy-900 text-xs">
@@ -356,8 +465,63 @@
   </footer>
 
   <script>
-    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
-      document.getElementById('mobile-menu').classList.toggle('hidden');
+    // Mobile navigation toggle
+    document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+
+    // Interactive Video Player Modal Logic
+    function openVideoPlayer(videoUrl, title, extUrl) {
+      const modal = document.getElementById('video-modal');
+      const dialog = document.getElementById('video-modal-dialog');
+      const iframe = document.getElementById('video-iframe');
+      const titleEl = document.getElementById('video-modal-title');
+      const extLink = document.getElementById('video-modal-ext-link');
+      
+      if (title && titleEl) titleEl.textContent = title;
+      if (extUrl && extLink) extLink.href = extUrl;
+      if (iframe) iframe.src = videoUrl;
+
+      modal.classList.remove('hidden', 'opacity-0', 'pointer-events-none');
+      modal.classList.add('flex', 'opacity-100');
+      if (dialog) {
+        dialog.classList.remove('scale-95');
+        dialog.classList.add('scale-100');
+      }
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeVideoPlayer() {
+      const modal = document.getElementById('video-modal');
+      const dialog = document.getElementById('video-modal-dialog');
+      const iframe = document.getElementById('video-iframe');
+      
+      if (dialog) {
+        dialog.classList.remove('scale-100');
+        dialog.classList.add('scale-95');
+      }
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      modal.classList.remove('opacity-100');
+      
+      setTimeout(() => {
+        if (iframe) iframe.src = '';
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = '';
+      }, 200);
+    }
+
+    document.getElementById('close-video-modal')?.addEventListener('click', closeVideoPlayer);
+    document.getElementById('close-video-modal-btn')?.addEventListener('click', closeVideoPlayer);
+    document.getElementById('video-modal')?.addEventListener('click', (e) => {
+      if (e.target.id === 'video-modal') {
+        closeVideoPlayer();
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeVideoPlayer();
+      }
     });
   </script>
   <script src="assets/js/live-sync.js"></script>
