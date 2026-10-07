@@ -245,41 +245,29 @@ async function fetchLatestLiveVideo() {
 const server = http.createServer((req, res) => {
   const urlPath = req.url.split('?')[0];
 
-  // Dynamic live video redirection: always points to the latest video/stream
+  // Dynamic live video redirection: always points to the YouTube Live stream tab
   if (urlPath === '/watch-live' || urlPath === '/live') {
-    fetchLatestLiveVideo().then((video) => {
-      res.writeHead(302, {
-        'Location': video.url,
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-        'Pragma': 'no-cache',
-        'Expires': '0'
-      });
-      res.end();
-    }).catch(() => {
-      res.writeHead(302, {
-        'Location': `https://www.youtube.com/watch?v=${FALLBACK_VIDEO_ID}`
-      });
-      res.end();
+    res.writeHead(302, {
+      'Location': 'https://www.youtube.com/@ChesterfieldCommunityChu-ye6vh/streams',
+      'Cache-Control': 'no-cache, no-store, must-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0'
     });
+    res.end();
     return;
   }
 
   // API endpoint for client-side live video resolution
   if (urlPath === '/api/latest-live') {
-    fetchLatestLiveVideo().then((video) => {
-      res.writeHead(200, {
-        'Content-Type': 'application/json; charset=utf-8',
-        'Access-Control-Allow-Origin': '*',
-        'Cache-Control': 'no-cache'
-      });
-      res.end(JSON.stringify(video));
-    }).catch(() => {
-      res.writeHead(200, {
-        'Content-Type': 'application/json; charset=utf-8',
-        'Access-Control-Allow-Origin': '*'
-      });
-      res.end(JSON.stringify(cachedVideo));
+    res.writeHead(200, {
+      'Content-Type': 'application/json; charset=utf-8',
+      'Access-Control-Allow-Origin': '*',
+      'Cache-Control': 'no-cache'
     });
+    res.end(JSON.stringify({
+      url: 'https://www.youtube.com/@ChesterfieldCommunityChu-ye6vh/streams',
+      title: 'Chesterfield Community Church of God Live'
+    }));
     return;
   }
 
