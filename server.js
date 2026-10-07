@@ -257,6 +257,16 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Instant Church Directory redirection
+  if (urlPath === '/directory' || urlPath === '/church-directory' || urlPath === '/instantchurchdirectory') {
+    res.writeHead(302, {
+      'Location': 'https://www.instantchurchdirectory.com/',
+      'Cache-Control': 'no-cache, no-store, must-revalidate'
+    });
+    res.end();
+    return;
+  }
+
   // API endpoint for client-side live video resolution
   if (urlPath === '/api/latest-live') {
     res.writeHead(200, {
