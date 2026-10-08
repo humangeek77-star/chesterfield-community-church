@@ -303,8 +303,15 @@ const server = http.createServer((req, res) => {
   const safeUrlPath = path.normalize(decodeURIComponent(urlPath)).replace(/^(\.\.[\/\\])+/, '');
   let filePath = path.join(ROOT, safeUrlPath);
 
+  // Aliases for Events & Fellowship Calendar
+  if (urlPath === '/events' || urlPath === '/calendar' || urlPath === '/event-connection-opportunities') {
+    filePath = path.join(ROOT, 'events.html');
+  }
+
   if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
     filePath = path.join(filePath, 'index.html');
+  } else if (!fs.existsSync(filePath) && fs.existsSync(filePath + '.html')) {
+    filePath = filePath + '.html';
   }
 
   fs.stat(filePath, (err, stats) => {
