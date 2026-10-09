@@ -97,16 +97,49 @@
   <!-- Banner -->
   <section class="bg-navy-900 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <span class="text-xs uppercase font-bold tracking-widest text-amber-400 block mb-2">Location &bull; Hours &bull; Get in Touch</span>
-      <h1 class="text-4xl sm:text-5xl font-serif font-bold text-white mb-4">Contact &amp; Visit Us</h1>
-      <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
-        We would love to welcome you in person. Find our campus location, church office schedule, or send us a message below.
-      </p>
-      <div class="mt-5 flex flex-wrap gap-3">
-        <a href="events.html" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-400/30 text-xs font-semibold transition-colors shadow-sm">
-          <span class="material-symbols-outlined text-base">event</span>
-          <span>Looking for Upcoming Gatherings? View Church Calendar &rarr;</span>
-        </a>
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+        <div class="max-w-2xl">
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-400 block mb-2">Location &bull; Hours &bull; Get in Touch</span>
+          <h1 class="text-4xl sm:text-5xl font-serif font-bold text-white mb-4">Contact &amp; Visit Us</h1>
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+            We would love to welcome you in person. Find our campus location, church office schedule, or send us a message below.
+          </p>
+          <div class="mt-5 flex flex-wrap gap-3">
+            <a href="events.html" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-400/30 text-xs font-semibold transition-colors shadow-sm">
+              <span class="material-symbols-outlined text-base">event</span>
+              <span>Looking for Upcoming Gatherings? View Church Calendar &rarr;</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Glance Campus Info (Glassmorphic) -->
+        <div class="w-full lg:max-w-sm bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 text-white shadow-xl space-y-3.5">
+          <div class="flex items-center justify-between border-b border-white/15 pb-2.5">
+            <div>
+              <span class="text-[10px] uppercase tracking-wider text-amber-300 font-bold block">Quick Campus Info</span>
+              <h2 class="text-lg font-serif font-bold text-white">Chesterfield Sanctuary</h2>
+            </div>
+            <span class="material-symbols-outlined text-2xl text-amber-400">church</span>
+          </div>
+          <div class="grid grid-cols-2 gap-3 text-xs">
+            <div>
+              <span class="text-slate-300 block">Sunday Worship</span>
+              <span class="font-bold text-white">10:30 AM</span>
+            </div>
+            <div>
+              <span class="text-slate-300 block">Sunday Study</span>
+              <span class="font-bold text-white">9:30 AM</span>
+            </div>
+            <div>
+              <span class="text-slate-300 block">Church Office</span>
+              <span class="font-bold text-white">(765) 378-7685</span>
+            </div>
+            <div>
+              <span class="text-slate-300 block">Campus Address</span>
+              <span class="font-bold text-white">123 Linden Lane</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -196,8 +229,8 @@
           </div>
         </div>
 
-        <!-- Right: Message Form -->
-        <div class="lg:col-span-7">
+        <!-- Right: Message Form & Visit Information -->
+        <div class="lg:col-span-7 space-y-6">
           <div class="bg-linen p-8 rounded-2xl border border-slate-200/80 shadow-md">
             <span class="text-xs uppercase font-bold tracking-widest text-amber-700">Direct Inquiries</span>
             <h3 class="font-serif font-bold text-2xl text-navy-900 mb-6 mt-1">Send a Message to the Church Office</h3>
@@ -244,6 +277,72 @@
                 &check; Thank you for reaching out! Your message has been sent to our office administrator, Shelly Siek. We will be in touch soon.
               </div>
             </form>
+          </div>
+
+          <!-- Visitor Welcome & Campus Navigation -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- First-Time Visitors & What to Expect Card -->
+            <div class="p-6 rounded-2xl bg-linen border border-slate-200 space-y-4 flex flex-col justify-between shadow-sm">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Visitor Guide</span>
+                  <span class="material-symbols-outlined text-amber-600 text-xl">favorite</span>
+                </div>
+                <h4 class="font-serif font-bold text-lg text-navy-900">What to Expect When You Visit</h4>
+                <ul class="text-xs space-y-2.5 text-slate-600 leading-relaxed">
+                  <li class="flex items-start gap-2">
+                    <span class="material-symbols-outlined text-amber-600 text-sm mt-0.5 shrink-0">check_circle</span>
+                    <span><strong>Warm Welcome:</strong> Friendly greeters at our main entrance ready to guide you to the sanctuary or classrooms.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="material-symbols-outlined text-amber-600 text-sm mt-0.5 shrink-0">check_circle</span>
+                    <span><strong>Come As You Are:</strong> From casual attire to Sunday best, our church family dresses comfortably.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="material-symbols-outlined text-amber-600 text-sm mt-0.5 shrink-0">check_circle</span>
+                    <span><strong>Children &amp; Nursery:</strong> Loving nursery care and engaging Discovery Kids programs during service.</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="material-symbols-outlined text-amber-600 text-sm mt-0.5 shrink-0">check_circle</span>
+                    <span><strong>Covered Portico:</strong> Drive-up covered canopy entrance for easy, dry drop-offs in all weather.</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80">
+                <a href="about.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 hover:text-amber-800">
+                  <span>Learn About Our Beliefs &amp; Heritage</span> &rarr;
+                </a>
+              </div>
+            </div>
+
+            <!-- Campus Map & Directions Card -->
+            <div class="p-6 rounded-2xl bg-linen border border-slate-200 space-y-4 flex flex-col justify-between shadow-sm">
+              <div class="space-y-3">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs uppercase font-bold tracking-wider text-amber-700">Campus Location</span>
+                  <span class="material-symbols-outlined text-amber-600 text-xl">map</span>
+                </div>
+                <h4 class="font-serif font-bold text-lg text-navy-900">Interactive Campus Map</h4>
+                <div class="rounded-xl overflow-hidden border border-slate-300 shadow-inner bg-slate-100 h-44 relative">
+                  <iframe 
+                    title="Chesterfield Community Church of God Location Map"
+                    src="https://maps.google.com/maps?q=Chesterfield+Community+Church+of+God,+123+Linden+Lane,+Chesterfield,+IN+46017&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    class="w-full h-full border-0" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Located at <strong>123 Linden Lane</strong> at the corner of Main St &amp; Linden Ln. Ample on-site parking accessible from Linden Lane.
+                </p>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Chesterfield+Community+Church+of+God,+123+Linden+Ln,+Chesterfield,+IN+46017" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-700 hover:text-amber-800">
+                  <span class="material-symbols-outlined text-sm">directions</span>
+                  <span>Get Driving Directions in Maps</span> &rarr;
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
